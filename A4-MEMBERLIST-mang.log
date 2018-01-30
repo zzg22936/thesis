@@ -1,0 +1,213 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.12.21)  9 APR 2017 21:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**A4-MEMBERLIST-mang.tex
+(./A4-MEMBERLIST-mang.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 $
+     $\\ \\ \\ $$
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 3--3
+[] 
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 3.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 3.
+! Undefined control sequence.
+<argument> \bf 
+               \Large $\underline {\mbox {\kaishu {王科强}}}\,\, $博士�...
+l.6 ...士学位论文答辩委员会成员名单}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \bf \Large 
+                      $\underline {\mbox {\kaishu {王科强}}}\,\, $博士�...
+l.6 ...士学位论文答辩委员会成员名单}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> \kaishu 
+                   {王科强}
+l.6 ...士学位论文答辩委员会成员名单}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 王 in font nullfont!
+Missing character: There is no 科 in font nullfont!
+Missing character: There is no 强 in font nullfont!
+Missing character: There is no 博 in font nullfont!
+Missing character: There is no 士 in font nullfont!
+Missing character: There is no 学 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+Missing character: There is no 论 in font nullfont!
+Missing character: There is no 文 in font nullfont!
+Missing character: There is no 答 in font nullfont!
+Missing character: There is no 辩 in font nullfont!
+Missing character: There is no 委 in font nullfont!
+Missing character: There is no 员 in font nullfont!
+Missing character: There is no 会 in font nullfont!
+Missing character: There is no 成 in font nullfont!
+Missing character: There is no 员 in font nullfont!
+Missing character: There is no 名 in font nullfont!
+Missing character: There is no 单 in font nullfont!
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \begin{center}
+                   
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 10--10
+[] 
+ []
+
+! Undefined control sequence.
+l.11 {\large
+            
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.13 \vfill\hfill{\heiti
+                         姓名}\hspace*{\fill} &\vfill\hfill{\heiti 职称}...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 姓 in font nullfont!
+Missing character: There is no 名 in font nullfont!
+! Undefined control sequence.
+l.13 ...��名}\hspace*{\fill} &\vfill\hfill{\heiti
+                                                   职称}\hspace*{\fill} &
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 职 in font nullfont!
+Missing character: There is no 称 in font nullfont!
+! Undefined control sequence.
+l.14 \vfill\hfill{\heiti
+                         单位}\hspace*{\fill} &\vfill\hfill {\heiti 备注...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 单 in font nullfont!
+Missing character: There is no 位 in font nullfont!
+! Undefined control sequence.
+l.14 ...�位}\hspace*{\fill} &\vfill\hfill {\heiti
+                                                   备注} \hspace*{\fill} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 备 in font nullfont!
+Missing character: There is no 注 in font nullfont!
+! Undefined control sequence.
+l.15 ...ll{}\hspace*{\fill} & \vfill\hfill {\heiti
+                                                   }\hspace*{\fill} \\[6pt]\...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (341.43304pt too wide) in paragraph at lines 12--24
+ [] 
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+Missing character: There is no s in font nullfont!
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2
+
+])
+! Emergency stop.
+<*> A4-MEMBERLIST-mang.tex
+                          
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 11 strings out of 493591
+ 153 string characters out of 6143545
+ 56754 words of memory out of 5000000
+ 3519 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 17i,8n,12p,170b,180s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on A4-MEMBERLIST-mang.pdf (2 pages).

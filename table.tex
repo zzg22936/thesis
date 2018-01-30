@@ -1,0 +1,49 @@
+
+\begin{sidewaystable}[h]
+\centering
+\caption{网络产生模型及工具II}\label{generativeModels1}
+\begin{supertabular}{|p{25mm}<{\centering}||p{20mm}|p{55mm}|p{60mm}|p{50mm}|}%{|c|c|c|c|c|}
+\hline
+模型 & 图类型 & 特征 & 说明 &   生成工具 \\
+\hline
+\hline
+Forest Fire\cite{DBLP:conf/kdd/LeskovecKF05} & 有向图 & 度分布是幂律分布，密度幂律分布，直径缩小&  度分布的幂律指数不确定 & NetworkKit\cite{Staudt2015NetworKit}，SNAP\cite{leskovec2016snap}\\
+\hline
+Small World\cite{Duncan1998Collectivedynamics} & 无向图 & 小直径，高聚集系数，度分布是指数分布  & 基于节点位置的模型，无法产生幂律度分布 & NetworkX\cite{hagberg-2008-exploring}，GraphStream\cite{Pign2008GraphStream}，NetworkKit\cite{Staudt2015NetworKit}，JUNG\cite{Madadhain2004Analysis}，SocNetV\cite{SocNetV}，SNAP\cite{leskovec2016snap}\\
+\hline
+Waxman\cite{Waxman1989Routing} & 无向图 & 小直径，高聚集系数 & 基于节点位置的模型，无法产生幂律度分布 & NetworkX\cite{hagberg-2008-exploring}\\
+\hline
+Hyperbolic Unit-disk\cite{Looz2015Fast} & 无向图 & 幂律分布，小直径，高聚集系数 & 基于节点位置的模型，可基于一个空间数据结构快速产生数据 & NetworkKit\cite{Staudt2015NetworKit} \\
+\hline
+R-MAT\cite{DBLP:conf/sdm/ChakrabartiZF04} & 有或无向图 & 度分布，Hop-plot，特征值分布 & 能够拟合真实数据的多个特征，通过邻接矩阵操作而产生图，易于扩展成分布式版本 & NetworkKit\cite{Staudt2015NetworKit}\\
+\hline
+Kronecker\cite{DBLP:conf/icml/LeskovecF07,Leskovec2010Kronecker} & 有或无向图 & 度分布，Hop-plot，特征值和特征向量分布，密度幂律分布和直径缩小 & 能够拟合多个真实数据的静态和动态特征。但拟合参数代价大，适当的随机噪声对拟合参数结果有影响 & SNAP\cite{leskovec2016snap} \\
+\hline
+RTM\cite{Akoglu2008RTM}& 有向带权演化网络 & 密度幂律分布，相关权重分布服从幂律分布 & 通过邻接矩阵操作而产生图 & SNAP\cite{leskovec2016snap} \\
+\hline
+CL\cite{Chung2002The,Fan2002Connected} & 无向图 & 任意度分布 & 能产生指定度分布的网络， 但网络的聚集系数低 & NetworkX\cite{hagberg-2008-exploring}，NetworkKit\cite{Staudt2015NetworKit} \\
+\hline
+Havel-Hakimi\cite{Hakimi1962On} & 无向图 & 任意度分布，高聚集系数 & 根据一系列节点度数据来产生指定度分布的网络 & NetworkX\cite{hagberg-2008-exploring}，NetworkKit\cite{Staudt2015NetworKit} \\
+\hline
+BTER\cite{Seshadhri2011Community} & 无向图 & 任意度分布，任意聚集系数和节点度的联合分布 &  Erd\"{o}s-Re\'{n}yi模型和CL模型的结合 & FEASTPACK\cite{FEASTPACK} 
+\hline
+\end{supertabular}
+\end{sidewaystable}
+
+
+
+
+\begin{sidewaystable}[h]
+\centering
+\caption{网络产生模型及工具III}\label{generativeModels2}
+\begin{supertabular}{|p{25mm}<{\centering}||p{20mm}|p{55mm}|p{60mm}|p{50mm}|}%{|c|c|c|c|c|}
+\hline
+模型 & 图类型 & 特征 & 说明 &   生成工具 \\
+\hline
+\hline
+S3G2\cite{DBLP:conf/tpctc/PhamBE12} & Facebook数据模型  & 指定值分布，合理的结构相关性，社交网络是幂律度分布，且具有高聚集系数 & 基于Facebook数据模型的数据生成器 & DATAGEN\footnote{\url{https://github.com/ldbc/ldbc\_snb\_datagen/}} \\
+\hline
+xSocial\cite{Du2010Analysis} & 带权演化网络  & 边、节点的权值分布、度分布和连通分支大小等分布都服从幂律分布 & 所产生网络的特征分布不是准确的拟合真实数据 & xSocial\footnote{\url{http://research.nokia.com/people/hao_ui_wang/index.html}}\\
+\hline
+\end{supertabular}
+\end{sidewaystable}

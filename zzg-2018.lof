@@ -1,0 +1,48 @@
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces 逐步剪枝策略\relax }}{14}{figure.caption.6}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces 多粒度概要数据逼近与某候选轨迹的真实距离\relax }}{16}{figure.caption.7}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces 剪枝示例\relax }}{17}{figure.caption.8}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces 利用下界和全局阈值的剪枝过程\relax }}{20}{figure.caption.9}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces 哈尔小波变换\relax }}{27}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {哈尔小波变换过程}}}{27}{figure.caption.10}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {哈尔小波示例}}}{27}{figure.caption.10}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ED-FTB剪枝效果图\relax }}{36}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$k=1$}}}{36}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$k=10$}}}{36}{figure.caption.11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$k=100$}}}{36}{figure.caption.11}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces 下界对剪枝结果的影响\relax }}{37}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$k=1$}}}{37}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$k=10$}}}{37}{figure.caption.12}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$k=100$}}}{37}{figure.caption.12}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces $n$,$k$和$M$对ED-FTB算法通信开销的影响\relax }}{37}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$M=100$}}}{37}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$M=1,000$}}}{37}{figure.caption.13}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$M=10,000$}}}{37}{figure.caption.13}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Communication cost comparison on {T-Small}\relax }}{38}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$k=1$}}}{38}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$k=10$}}}{38}{figure.caption.14}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$k=100$}}}{38}{figure.caption.14}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Scalability of ED-FTB on {T-Big}\relax }}{39}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Running time in respect of $n$,$N$}}}{39}{figure.caption.15}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Communication cost in respect of $n$,$N$}}}{39}{figure.caption.15}
+\addvspace {10.0pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces 带约束的动态时间卷曲\relax }}{45}{figure.caption.16}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces 包围信封\relax }}{46}{figure.caption.17}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces DTW-FLB剪枝效果\relax }}{53}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$n=1,024$}}}{53}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$n=2,048$}}}{53}{figure.caption.19}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$n=4,096$}}}{53}{figure.caption.19}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces DTW-FLB通信开销与$n$, $M$和 $k$之间的关系\relax }}{54}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$M=100$}}}{54}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$M=1,000$}}}{54}{figure.caption.20}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$M=10,000$}}}{54}{figure.caption.20}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces DTW-FLB性能与 $\delta $间的关系\relax }}{55}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {通信开销与 $\delta $关系}}}{55}{figure.caption.21}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {时间开销与 $\delta $关系}}}{55}{figure.caption.21}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The scalability of DTW-FLB\relax }}{56}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {时间可扩展与$n$ 和 $N$之间的关系}}}{56}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {通信可扩展性与$n$ 和 $N$之间的关系}}}{56}{figure.caption.22}
+\contentsfinish 

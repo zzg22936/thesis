@@ -1,0 +1,210 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{DengHZHD15}
+\bibauthor{DENG Z\@, HU Y\@, ZHU M, et~al}\@. \bibtitle{A scalable and fast
+  {OPTICS} for clustering trajectory big data}\bibmark{[J]}\@.
+  \bibjournal{Cluster Computing}\@, \bibyear{2015}\@,
+  \bibvolume{18}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{549\thinspace{}\textnormal{--}\thinspace{}562}\@.
+
+\bibitem{CostaMM14}
+\bibauthor{COSTA G\@, MANCO G\@, MASCIARI E}\@. \bibtitle{Dealing with
+  trajectory streams by clustering and mathematical transforms}\bibmark{[J]}\@.
+  \bibjournal{Journal of Intelligent Information Systems,}\@, \bibyear{2014}\@,
+  \bibvolume{42}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{155\thinspace{}\textnormal{--}\thinspace{}177}\@.
+
+\bibitem{YuWWWH13}
+\bibauthor{YU Y\@, WANG Q\@, WANG X, et~al}\@. \bibtitle{Online clustering for
+  trajectory data stream of moving objects}\bibmark{[J]}\@.
+  \bibjournal{Computer Science and Information Systems}\@, \bibyear{2013}\@,
+  \bibvolume{10}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{1293\thinspace{}\textnormal{--}\thinspace{}1317}\@.
+
+\bibitem{MaoSJZZ16}
+\bibauthor{MAO J\@, SONG Q\@, JIN C, et~al}\@. \bibtitle{TSCluWin: Trajectory
+  Stream Clustering over Sliding Window}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 21st {DASFAA}, Part {II}}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{133\thinspace{}\textnormal{--}\thinspace{}148}\@.
+
+\bibitem{NehmeR06}
+\bibauthor{NEHME R~V\@, RUNDENSTEINER E~A}\@. \bibtitle{{SCUBA:} Scalable
+  Cluster-Based Algorithm for Evaluating Continuous Spatio-temporal Queries on
+  Moving Objects}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of
+  the10th {EDBT}}\@. \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{1001\thinspace{}\textnormal{--}\thinspace{}1019}\@.
+
+\bibitem{SacharidisPTKPMS08}
+\bibauthor{SACHARIDIS D\@, PATROUMPAS K\@, TERROVITIS M, et~al}\@.
+  \bibtitle{On-line discovery of hot motion paths}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 11th {EDBT}}\@.
+  \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{392\thinspace{}\textnormal{--}\thinspace{}403}\@.
+
+\bibitem{ZhengZYS13}
+\bibauthor{ZHENG K\@, ZHENG Y\@, YUAN N~J, et~al}\@. \bibtitle{On discovery of
+  gathering patterns from trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 29th ICDE}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{242\thinspace{}\textnormal{--}\thinspace{}253}\@.
+
+\bibitem{TangZYHLHP12}
+\bibauthor{TANG L~A\@, ZHENG Y\@, YUAN J, et~al}\@. \bibtitle{On Discovery of
+  Traveling Companions from Streaming Trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 28th ICDE}\@.
+  \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{186\thinspace{}\textnormal{--}\thinspace{}197}\@.
+
+\bibitem{LiCJT13}
+\bibauthor{LI X\@, CEIKUTE V\@, JENSEN C~S, et~al}\@. \bibtitle{Effective
+  Online Group Discovery in Trajectory Databases}\bibmark{[J]}\@.
+  \bibjournal{TKDE}\@, \@,
+  \bibvolume{25}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{2752\thinspace{}\textnormal{--}\thinspace{}2766}\@.
+
+\bibitem{DuanJWZY16}
+\bibauthor{DUAN X\@, JIN C\@, WANG X, et~al}\@. \bibtitle{Real-Time
+  Personalized Taxi-Sharing}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 21st {DASFAA} Part {II}}\@.
+  \bibyear{2016}\thinspace{}\textnormal{:
+  }\bibpages{451\thinspace{}\textnormal{--}\thinspace{}465}\@.
+
+\bibitem{DTKST}
+\bibauthor{ZHANG Z\@, WANG Y\@, MAO J, et~al}\@. \bibtitle{{DT-KST:}
+  Distributed Top-k Similarity Query on Big Trajectory Streams}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 22nd {DASFAA}, Part{I}}\@.
+  \bibyear{2017}\thinspace{}\textnormal{:
+  }\bibpages{199\thinspace{}\textnormal{--}\thinspace{}214}\@.
+
+\bibitem{bandwidth}
+\bibauthor{HSU C-C\@, KUNG P-H\@, YEH M-Y, et~al}\@.
+  \bibtitle{Bandwidth-efficient distributed k-nearest-neighbor search with
+  dynamic time warping}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of
+  the 2015 ICBD}\@. \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{551\thinspace{}\textnormal{--}\thinspace{}560}\@.
+
+\bibitem{crowdsourced}
+\bibauthor{ZEINALIPOUR-YAZTI D\@, LAOUDIAS C\@, COSTA C, et~al}\@.
+  \bibtitle{Crowdsourced trace similarity with smartphones}\bibmark{[J]}\@.
+  \bibjournal{TKDE}\@, \bibyear{2013}\@,
+  \bibvolume{25}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{1240\thinspace{}\textnormal{--}\thinspace{}1253}\@.
+
+\bibitem{SmartTrace}
+\bibauthor{COSTA C\@, LAOUDIAS C\@, ZEINALIPOUR{-}YAZTI D, et~al}\@.
+  \bibtitle{SmartTrace: Finding similar trajectories in smartphone networks
+  without disclosing the traces}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 27th ICDE}\@.
+  \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{1288\thinspace{}\textnormal{--}\thinspace{}1291}\@.
+
+\bibitem{EDR}
+\bibauthor{CHEN L\@, {\"O}ZSU M~T\@, ORIA V}\@. \bibtitle{Robust and fast
+  similarity search for moving object trajectories}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 2005 {ACM} {SIGMOD}}\@.
+  \bibyear{2005}\thinspace{}\textnormal{:
+  }\bibpages{491\thinspace{}\textnormal{--}\thinspace{}502}\@.
+
+\bibitem{ZhuLYZHZ10}
+\bibauthor{ZHU H\@, LUO J\@, YIN H, et~al}\@. \bibtitle{Mining Trajectory
+  Corridors Using Frechet Distance and Meshing Grids}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 14th {PAKDD} Part {I}}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{228\thinspace{}\textnormal{--}\thinspace{}237}\@.
+
+\bibitem{Guo2017}
+\bibauthor{GUO N\@, MA M\@, XIONG W, et~al}\@. \bibtitle{An Efficient Query
+  Algorithm for Trajectory Similarity Based on Frechet Distance
+  Threshold}\bibmark{[J]}\@. \bibjournal{International Journal of
+  Geo-Information}\@, \bibyear{2017}\@,
+  \bibvolume{6}\bibnumber{(11)}\thinspace{}\textnormal{: }\bibpages{326}\@.
+
+\bibitem{LinS08}
+\bibauthor{LIN B\@, SU J}\@. \bibtitle{One Way Distance: For Shape Based
+  Similarity Search of Moving Object Trajectories}\bibmark{[J]}\@.
+  \bibjournal{GeoInformatica}\@, \bibyear{2008}\@,
+  \bibvolume{12}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{117\thinspace{}\textnormal{--}\thinspace{}142}\@.
+
+\bibitem{Liu012}
+\bibauthor{LIU H\@, SCHNEIDER M}\@. \bibtitle{Similarity measurement of moving
+  object trajectories}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of
+  the 3rd {ACM} {SIGSPATIAL} Workshop on GeoStreaming}\@.
+  \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{19\thinspace{}\textnormal{--}\thinspace{}22}\@.
+
+\bibitem{ZhaoX11}
+\bibauthor{ZHAO X\@, XU W}\@. \bibtitle{A New Measurement Method to Calculate
+  Similarity of Moving Object Spatio-Temporal Trajectories by Compact
+  Representation}\bibmark{[J]}\@. \bibjournal{International Journal of
+  Computational Intelligence Systems}\@, \bibyear{2011}\@,
+  \bibvolume{4}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{1140\thinspace{}\textnormal{--}\thinspace{}1147}\@.
+
+\bibitem{ZhengYZXSZ15}
+\bibauthor{ZHENG B\@, YUAN N~J\@, ZHENG K, et~al}\@. \bibtitle{Approximate
+  keyword search in semantic trajectory database}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 31st {ICDE}}\@.
+  \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{975\thinspace{}\textnormal{--}\thinspace{}986}\@.
+
+\bibitem{Magdy2016Review}
+\bibauthor{MAGDY N\@, SAKR M~A\@, MOSTAFA T, et~al}\@. \bibtitle{Review on
+  trajectory similarity measures}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 7th ICICIS}\@.
+  \bibyear{2016}\thinspace{}\textnormal{: }\bibpages{613¨C619}\@.
+
+\bibitem{TooheyD15}
+\bibauthor{TOOHEY K\@, DUCKHAM M}\@. \bibtitle{Trajectory similarity
+  measures}\bibmark{[J]}\@. \bibjournal{Proceedings of the 2015 {SIGSPATIAL}
+  Special}\@, \bibyear{2015}\@,
+  \bibvolume{7}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{43\thinspace{}\textnormal{--}\thinspace{}50}\@.
+
+\bibitem{setSimilar}
+\bibauthor{VERNICA R\@, CAREY M~J\@, LI C}\@. \bibtitle{Efficient parallel
+  set-similarity joins using MapReduce}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 16th ACM SIGMOD}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{495\thinspace{}\textnormal{--}\thinspace{}506}\@.
+
+\bibitem{kimICDE2012}
+\bibauthor{KIM Y\@, SHIM K}\@. \bibtitle{Parallel top-k similarity join
+  algorithms using MapReduce}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the IEEE 28th ICDE}\@.
+  \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{510\thinspace{}\textnormal{--}\thinspace{}521}\@.
+
+\bibitem{KDDSimilarity}
+\bibauthor{ZEINALIPOUR{-}YAZTI D\@, LIN S\@, GUNOPULOS D}\@.
+  \bibtitle{Distributed spatio-temporal similarity search}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 2006 CIKM}\@.
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{14\thinspace{}\textnormal{--}\thinspace{}23}\@.
+
+\end{thebibliography}

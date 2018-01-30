@@ -1,0 +1,1052 @@
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.12.21)  21 MAR 2017 20:51
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**symbol.tex
+(./symbol.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.5 \begin{tabular}
+                   {cp{0.68\columnwidth}}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 5.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 5.
+Missing character: There is no 符 in font nullfont!
+Missing character: There is no 号 in font nullfont!
+Missing character: There is no 符 in font nullfont!
+Missing character: There is no 号 in font nullfont!
+Missing character: There is no 描 in font nullfont!
+Missing character: There is no 述 in font nullfont!
+! Undefined control sequence.
+l.7 ^^I^^I符号 & 符号描述 \bigstrut
+                                          \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.9 ^^I^^I$N$  & 用户数量 \bigstrut
+                                        \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.10 ^^I^^I$M$ & 商品数量 \bigstrut
+                                        \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 签 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.11 ^^I^^I$T$ & 标签数量 \bigstrut
+                                        \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 局 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 维 in font nullfont!
+Missing character: There is no 度 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.12 ...�向量的维度($\ll \min(N,M)$)\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 12--13
+[]$\OMS/cmsy/m/n/10 ^^\
+ []
+
+
+Overfull \hbox (48.25pt too wide) in paragraph at lines 12--13
+[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 N; M\OT1/cmr/m/n/10 )$| 
+ []
+
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 或 in font nullfont!
+Missing character: There is no 者 in font nullfont!
+Missing character: There is no 是 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 型 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+! Undefined control sequence.
+l.13 ...者是主题模型中主题个数\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 次 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no 评 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.15 ...商品，次数/评分$>$） ($\in \mathbb
+                                                  {R}^{N\times M}$) \bigstrut\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.15 ...� ($\in \mathbb{R}^{N\times M}$) \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (15.5556pt too wide) in paragraph at lines 15--16
+[]$\OML/cmm/m/it/10 <$$>$
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 15--16
+\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (29.8813pt too wide) in paragraph at lines 15--16
+\OML/cmm/m/it/10 R[]$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 引 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+! Undefined control sequence.
+l.16 ...��$\mathbf{R}$用户索引集合 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.62495pt too wide) in paragraph at lines 16--17
+[]$\OT1/cmr/bx/n/10 R$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 引 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+! Undefined control sequence.
+l.17 ...��$\mathbf{R}$商品索引集合 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.62495pt too wide) in paragraph at lines 17--18
+[]$\OT1/cmr/bx/n/10 R$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 签 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 引 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+! Undefined control sequence.
+l.18 ...��$\mathbf{R}$标签索引集合 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.62495pt too wide) in paragraph at lines 18--19
+[]$\OT1/cmr/bx/n/10 R$| 
+ []
+
+Missing character: There is no 原 in font nullfont!
+Missing character: There is no 始 in font nullfont!
+Missing character: There is no 次 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.20 ...�二值化）化数据矩阵 ($\in \mathbb
+                                                  {R}^{N\times M}$)   \bigst...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.20 ...($\in \mathbb{R}^{N\times M}$)   \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (8.62495pt too wide) in paragraph at lines 20--21
+[]$\OT1/cmr/bx/n/10 R$
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 20--21
+\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (29.8813pt too wide) in paragraph at lines 20--21
+\OML/cmm/m/it/10 R[]$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 权 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+! Undefined control sequence.
+l.21 ...数据矩阵的置信权重矩阵\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.23 ...$  & 用户的隐藏特征向量 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.24 ...$  & 商品的隐藏特征向量 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 签 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.25 ...��应的标签隐藏特征向量 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 与 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 应 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 标 in font nullfont!
+Missing character: There is no 签 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 特 in font nullfont!
+Missing character: There is no 征 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+! Undefined control sequence.
+l.26 ...��应的标签隐藏特征向量 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+! Undefined control sequence.
+l.28 ...R}^h$ & 第$h$个子数据矩阵 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.76158pt too wide) in paragraph at lines 28--29
+[]$\OML/cmm/m/it/10 h$| 
+ []
+
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+! Undefined control sequence.
+l.29 ...�二值化）化子数据矩阵  \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (5.76158pt too wide) in paragraph at lines 29--30
+[]$\OML/cmm/m/it/10 h$| 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 置 in font nullfont!
+Missing character: There is no 信 in font nullfont!
+Missing character: There is no 权 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+! Undefined control sequence.
+l.30 ...mathbf{C}^h$的置信权重矩阵\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (13.48726pt too wide) in paragraph at lines 30--31
+[]$\OT1/cmr/bx/n/10 C[]$| 
+ []
+
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 二 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no ） in font nullfont!
+Missing character: There is no 化 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 权 in font nullfont!
+Missing character: There is no 重 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+! Undefined control sequence.
+l.31 ...矩阵权重矩阵$ \mathbf{C}^h$\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (26.97452pt too wide) in paragraph at lines 31--32
+[]$\OT1/cmr/bx/n/10 C[]$$C[]$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 引 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 索 in font nullfont!
+Missing character: There is no 引 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+! Undefined control sequence.
+l.32 ...��引集合，商品索引集合 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 子 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 中 in font nullfont!
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 局 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no 和 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 局 in font nullfont!
+Missing character: There is no 部 in font nullfont!
+Missing character: There is no 隐 in font nullfont!
+Missing character: There is no 藏 in font nullfont!
+Missing character: There is no 向 in font nullfont!
+Missing character: There is no 量 in font nullfont!
+Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.33 ...m$个商品局部隐藏向量($\in \mathbb
+                                                  {R}^K$)  \bigstrut\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.33 ...��藏向量($\in \mathbb{R}^K$)  \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (34.82819pt too wide) in paragraph at lines 33--34
+[]$\OMS/cmsy/m/n/10 R[]$$\OML/cmm/m/it/10 u$$m$$\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (15.37991pt too wide) in paragraph at lines 33--34
+\OML/cmm/m/it/10 R[]$| 
+ []
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no （ in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 记 in font nullfont!
+Missing character: There is no 录 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no ， in font nullfont!
+Missing character: There is no 不 in font nullfont!
+Missing character: There is no 包 in font nullfont!
+Missing character: There is no 含 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 未 in font nullfont!
+Missing character: There is no 发 in font nullfont!
+Missing character: There is no 现 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 情 in font nullfont!
+Missing character: There is no 况 in font nullfont!
+Missing character: There is no ） in font nullfont!
+! Undefined control sequence.
+l.35 ...��户未发现商品的情况） \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 记 in font nullfont!
+Missing character: There is no 录 in font nullfont!
+Missing character: There is no 对 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.36 ...�记录对, $\in \mathcal{A}$)   \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (33.3855pt too wide) in paragraph at lines 36--37
+\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 u[]; m[]\OMS/cmsy/m/n/10 i$
+ []
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 36--37
+\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (7.98471pt too wide) in paragraph at lines 36--37
+\OMS/cmsy/m/n/10 A$| 
+ []
+
+Missing character: There is no 锚 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 集 in font nullfont!
+Missing character: There is no 合 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.37 ...点集合($\subset \mathcal{A}$) \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (7.7778pt too wide) in paragraph at lines 37--38
+[]$\OMS/cmsy/m/n/10 ^^Z
+ []
+
+
+Overfull \hbox (7.98471pt too wide) in paragraph at lines 37--38
+\OMS/cmsy/m/n/10 A$| 
+ []
+
+Missing character: There is no 锚 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.38 ...点  ($\in \mathcal{\hat{A}}$)   \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (6.66669pt too wide) in paragraph at lines 38--39
+\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (7.98471pt too wide) in paragraph at lines 38--39
+[]$| 
+ []
+
+Missing character: There is no 两 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 之 in font nullfont!
+Missing character: There is no 间 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 核 in font nullfont!
+Missing character: There is no 函 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 值 in font nullfont!
+! Undefined control sequence.
+l.39 ...��数据点之间的核函数值 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ( in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no 数 in font nullfont!
+Missing character: There is no 据 in font nullfont!
+Missing character: There is no 点 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 配 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+! Undefined control sequence.
+l.40 ...gle u,m\rangle$上分配的主题\bigstrut
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 40--41
+[]$\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (26.72693pt too wide) in paragraph at lines 40--41
+\OMS/cmsy/m/n/10 h\OML/cmm/m/it/10 u; m\OMS/cmsy/m/n/10 i$| 
+ []
+
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 用 in font nullfont!
+Missing character: There is no 户 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 布 in font nullfont!
+Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.42 ...��$u$个用户的主题分布($\in \mathbb
+                                                  {R}^K$) \bigstrut\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.42 ...主题分布($\in \mathbb{R}^K$) \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.39127pt too wide) in paragraph at lines 42--43
+[]$\OML/cmm/m/it/10 u$$\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (15.37991pt too wide) in paragraph at lines 42--43
+\OML/cmm/m/it/10 R[]$| 
+ []
+
+Missing character: There is no 第 in font nullfont!
+Missing character: There is no 个 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 布 in font nullfont!
+Missing character: There is no ( in font nullfont!
+! Undefined control sequence.
+l.43 ...k$个主题上的商品分布($\in \mathbb
+                                                  {R}^M$) \bigstrut\\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no ) in font nullfont!
+! Undefined control sequence.
+l.43 ...商品分布($\in \mathbb{R}^M$) \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (12.18753pt too wide) in paragraph at lines 43--44
+[]$\OML/cmm/m/it/10 k$$\OMS/cmsy/m/n/10 2
+ []
+
+
+Overfull \hbox (16.54655pt too wide) in paragraph at lines 43--44
+\OML/cmm/m/it/10 R[]$| 
+ []
+
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 型 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 布 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 狄 in font nullfont!
+Missing character: There is no 利 in font nullfont!
+Missing character: There is no 克 in font nullfont!
+Missing character: There is no 雷 in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 验 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+! Undefined control sequence.
+l.44 ...分布的狄利克雷先验参数\bigstrut
+                                                   \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 主 in font nullfont!
+Missing character: There is no 题 in font nullfont!
+Missing character: There is no 模 in font nullfont!
+Missing character: There is no 型 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 商 in font nullfont!
+Missing character: There is no 品 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 布 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no 狄 in font nullfont!
+Missing character: There is no 利 in font nullfont!
+Missing character: There is no 克 in font nullfont!
+Missing character: There is no 雷 in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 验 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+! Undefined control sequence.
+l.45 ...分布的狄利克雷先验参数\bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no 概 in font nullfont!
+Missing character: There is no 率 in font nullfont!
+Missing character: There is no 矩 in font nullfont!
+Missing character: There is no 阵 in font nullfont!
+Missing character: There is no 分 in font nullfont!
+Missing character: There is no 解 in font nullfont!
+Missing character: There is no 上 in font nullfont!
+Missing character: There is no 高 in font nullfont!
+Missing character: There is no 斯 in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 验 in font nullfont!
+Missing character: There is no 的 in font nullfont!
+Missing character: There is no G in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no W in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no 先 in font nullfont!
+Missing character: There is no 验 in font nullfont!
+Missing character: There is no 参 in font nullfont!
+Missing character: There is no 数 in font nullfont!
+! Undefined control sequence.
+l.46 ...�的Gaussian-Wishart先验参数 \bigstrut
+                                                  \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: \begin{document} ended by \end{table}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.49 \end{table}
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.49 \end{table}
+                
+Things are pretty mixed up, but I think the worst is over.
+
+
+Overfull \hbox (80.89128pt too wide) in paragraph at lines 5--50
+[][]
+ []
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.52 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[1]
+Missing character: There is no s in font nullfont!
+
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.54 \clearpage
+               
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2
+
+])
+! Emergency stop.
+<*> symbol.tex
+              
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 14 strings out of 493591
+ 141 string characters out of 6143545
+ 59754 words of memory out of 5000000
+ 3520 multiletter control sequences out of 15000+600000
+ 4567 words of font info for 17 fonts, out of 8000000 for 9000
+ 1347 hyphenation exceptions out of 8191
+ 19i,11n,16p,148b,126s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on symbol.pdf (2 pages).

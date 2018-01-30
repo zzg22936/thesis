@@ -1,0 +1,59 @@
+\newpage
+
+\pagestyle{empty}
+
+\begin{table}[htbp]
+	\centering
+	\caption{本文符号说明}
+	\label{tab-basic-notation}%
+	
+	\begin{tabular}{cp{0.68\columnwidth}}
+		\hline
+		符号 & 符号描述 \bigstrut \\
+		\hline\hline
+		$N$  & 用户数量 \bigstrut \\
+		$M$ & 商品数量 \bigstrut \\
+		$T$ & 标签数量 \bigstrut \\
+		$K$     & 局部隐藏特征向量的维度($\ll \min(N,M)$)\bigstrut\\
+		$H$     & 子矩阵的个数或者是主题模型中主题个数\bigstrut\\
+		\hline
+		$\mathbf{R}$     & 原始数据矩阵（$<$用户，商品，次数/评分$>$） ($\in \mathbb{R}^{N\times M}$) \bigstrut\\
+		$ \mathcal{N}$ & 数据矩阵中$\mathbf{R}$用户索引集合 \bigstrut\\
+		$ \mathcal{M}$ & 数据矩阵中$\mathbf{R}$商品索引集合 \bigstrut\\
+		$ \mathcal{T}$ & 数据矩阵中$\mathbf{R}$标签索引集合 \bigstrut\\
+		\hline
+		$\mathbf{C}$     & 原始次数数据矩阵$\mathbf{R}$的01（二值化）化数据矩阵 ($\in \mathbb{R}^{N\times M}$)   \bigstrut\\
+		$\mathbf{W}$ & 数据矩阵的置信权重矩阵\bigstrut\\
+		%		$\mathcal{U}, \mathcal{V}$ & user (item) set of data matrix $\mathbf{R}$ \bigstrut\\
+		$\mathbf{P}$  & 用户的隐藏特征向量 \bigstrut\\
+		$\mathbf{Q}$  & 商品的隐藏特征向量 \bigstrut\\
+		$\mathbf{T}^\mathcal{N}$  & 与用户对应的标签隐藏特征向量 \bigstrut\\
+		$\mathbf{T}^\mathcal{M}$  & 与商品对应的标签隐藏特征向量 \bigstrut\\
+		\hline
+		$\mathbf{R}^h$ & 第$h$个子数据矩阵 \bigstrut\\
+		$\mathbf{C}^h$ &第$h$个01（二值化）化子数据矩阵  \bigstrut\\
+		$ \mathbf{W}^h$ &01（二值化）化子数据矩阵$\mathbf{C}^h$的置信权重矩阵\bigstrut\\
+		$ \mathbf{V}^h$ & 01（二值化）化子数据矩阵$\mathbf{C}^h$的子矩阵权重矩阵$ \mathbf{C}^h$\bigstrut\\
+		$ \mathcal{N}^h,  \mathcal{M}^h$ & 数据子矩阵中用户索引集合，商品索引集合 \bigstrut\\
+		$ \mathbf{P}^h_u, \mathbf{Q}^h_m$  & 子数据矩阵$\mathcal{R}^h$中第$u$个用户局部隐藏向量和$m$个商品局部隐藏向量($\in \mathbb{R}^K$)  \bigstrut\\
+		\hline
+		$\mathcal{A}$ & 数据点集合（用户-商品记录对集合，不包含用户未发现商品的情况） \bigstrut\\
+		$a_i=\langle u_i, m_i \rangle$     & 数据点 $\langle u_i, m_i\rangle$ (用户-商品记录对, $\in \mathcal{A}$)   \bigstrut\\
+		$ \mathcal{\hat{A}}$ & 锚点集合($\subset \mathcal{A}$) \bigstrut\\
+		$\hat{a}_h=\langle\hat{u}_h, \hat{m}_h\rangle$ & 锚点  ($\in \mathcal{\hat{A}}$)   \bigstrut\\
+		$E(a_i, a_j)$ & 两个数据点之间的核函数值 \bigstrut\\
+		$z_i$ ($z_{u,m}$)   &数据点$i=\langle u,m\rangle$上分配的主题\bigstrut \\
+		\hline
+		$\theta_u$ & 第$u$个用户的主题分布($\in \mathbb{R}^K$) \bigstrut\\
+		$\phi_k$ & 第$k$个主题上的商品分布($\in \mathbb{R}^M$) \bigstrut\\
+		$\alpha$ &主题模型上主题分布的狄利克雷先验参数\bigstrut \\
+		$\beta$ &  主题模型上商品分布的狄利克雷先验参数\bigstrut\\
+		$\Psi_0$ & 概率矩阵分解上高斯先验的Gaussian-Wishart先验参数 \bigstrut\\
+		\hline
+	\end{tabular}
+\end{table}
+
+%额外空白页
+\clearpage
+\phantom{s}
+\clearpage

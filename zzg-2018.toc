@@ -1,0 +1,60 @@
+\contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}研究内容与挑战}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}主要贡献}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}章节安排}{6}{section.1.4}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}问题定义及研究现状}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}问题定义}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}轨迹数据}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}分布式k近邻轨迹查询}{10}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}轨迹索引}{11}{section.2.2}
+\contentsline {section}{\numberline {2.3}轨迹降维}{11}{section.2.3}
+\contentsline {section}{\numberline {2.4}轨迹相似度度量}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}时间序列top-$k$查询}{11}{section.2.5}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}查询处理框架}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}引言}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}接口函数}{14}{section.3.2}
+\contentsline {section}{\numberline {3.3}FTB框架}{15}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}FTB框架设计原理}{15}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}FTB框架实现}{17}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}FLB框架}{20}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}FLB框架设计原理}{20}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}FLB框架实现}{22}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}本章小结}{24}{section.3.5}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}FTB框架的应用}{26}{chapter.4}
+\contentsline {section}{\numberline {4.1}基于欧式距离的概要数据}{26}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}基于欧式距离的轨迹相似度度量}{26}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}基于哈尔小波的轨迹概要数据抽取}{27}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}轨迹欧式距离上下界}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}基于哈尔小波的欧式距离表示}{28}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}基于哈尔小波的欧式距离上下界}{29}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}基于欧式距离的查询算法:ED-FTB}{31}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}ED-FTB算法实现}{31}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}ED-FTB算法性能分析}{34}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}实验分析}{35}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}实验设置}{35}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}算法有效性}{36}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}算法可扩展性}{38}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}本章小结}{39}{section.4.5}
+\contentsline {section}{\numberline {4.6}附件}{40}{section.4.6}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}FLB框架的应用}{44}{chapter.5}
+\contentsline {section}{\numberline {5.1}基于动态时间卷曲距离的概要数据}{44}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}基于动态时间卷曲距离的轨迹相似度度量}{44}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}基于包围信封的概要数据}{46}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}动态时间卷曲距离的下界}{47}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}满足DTW约束的包围信封及下界}{47}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}基于多粒度包围信封的下界}{48}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}基于动态时间距离的查询算法:DTW-FLB}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}DTW-FLB算法实现}{49}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}DTW-FLB算法性能分析}{51}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}实验分析}{52}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}实验设置}{52}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}算法有效性}{53}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}算法可扩展性}{55}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}本章小结}{56}{section.5.5}
+\contentsline {section}{\numberline {5.6}附件}{57}{section.5.6}
+\contentsline {chapter}{参考文献}{63}{equation.5.6.18}
+\contentsline {chapter}{附录}{67}{chapter*.23}
+\contentsline {chapter}{致谢}{69}{section*.25}
+\contentsline {chapter}{发表论文和科研情况}{70}{chapter*.26}
+\contentsfinish 

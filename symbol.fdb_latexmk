@@ -1,0 +1,14 @@
+# Fdb version 3
+["pdflatex"] 1490100677 "symbol.tex" "symbol.pdf" "symbol" 1490100678
+  "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt" 1482253855 3520377 1f9f9b6718f6c9009157e403251317b1 ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "symbol.aux" 1490100676 8 a94a2480d3289e625eea47cd1b285758 ""
+  "symbol.tex" 1490100677 3064 68c61578a4ac8aba37a36abe63e54057 ""
+  (generated)
+  "symbol.log"
+  "symbol.pdf"

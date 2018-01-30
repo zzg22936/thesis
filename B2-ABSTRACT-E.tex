@@ -1,0 +1,51 @@
+\newpage
+\vspace{-1cm}
+\chapter*{\zihao{-2}\heiti{ABSTRACT}}
+\vspace{-0.5cm}
+
+With the development of information technology, the numbers of Internet users and network products show explosive growth.  So the world has transformed from the time of lack of information to the information overload era. Personalized recommendation system builds models utilizing users' behavior data and characterization data of enterprise product, then provides target information for users and offers target customers for business promotion.  Modern Internet service providers, such as online shopping site Taobao, online video site iQIYI, and life information service website Dianping, provide users with a large number of goods, allowing users to rate goods and describe goods with tags.  Focusing on the above user behavior data, this thesis aims at tackling three typical recommendation tasks based on the matrix factorization techniques: (1) building \textit{item recommendation} model on  implicit feedback datasets  to provide target items for users; (2)  building \textit{rating prediction} model on explicit rating datasets to predict the user's preference for the item; (3) building \textit{tag recommendation} model on explicit tag datasets to make tagging input convenient for users to describe items, which  helps the positive cycle of recommendation system.  The research questions and technical contributions in this thesis can be summarized as follows,
+
+\begin{itemize}
+\item[1.] Local Weighted Matrix Factorization for \textit{item recommendation}:  the existing matrix factorization models on implicit feedback datasets only consider the global property of data and ignore the local property.  To utilize the local property in implicit feedback datasets, this thesis proposes Local Weighted Matrix Factorization to recommend items.  To learn the parameters, this thesis designs an efficient sub-matrix selection algorithm and an improved Alternating Least Square optimization algorithm.  LWMF models the local property of users and items and relieves the data sparsity problem.  The experimental results on real datasets show that LWMF has relatively good recommendation performance and verify that considering local property of implicit feedback is helpful for item recommendation. 
+	
+\item[2.] Probabilistic Multi-Topic Matrix Factorization for \textit{rating prediction}:   there are two main weak points in previous studies. One is the non-interpretability of the models built on the local information in explicit rating data. Another is the inconsistency of the objective functions. To overcome these problems, this thesis presents a Probabilistic Multi-Topic Matrix Factorization model. This model combines topic model with probabilistic matrix factorization model. Topic model is used to capture local information of data and matrix factorization models the local inner property of users and items. Furthermore, this thesis extends a Bayesian formulation of probabilistic multi-topic matrix factorization model.  It requires fewer efforts in parameter selection and can achieve higher recommendation accuracy. Extensive experiments demonstrate the effectiveness of the proposed model compared with several competitive baselines and the interpretability to local modelling information.  
+
+\item[3.] Time aware \textit{tag recommendation}:  To utilize the time when users use tags, this thesis presents a time aware tensor factorization model. This model utilizes Hawkers process to model the temporal information in users' tagging behavior. Specifically, exponential function is used to transform accumulation to recursion form for Hawkes process, which makes that target user's preference to tags at current time only depends on the last time this user used tag. Then this model incorporates temporal point process into pairwise tensor factorization model by modeling it as weight.  The experimental results show that this model can utilize time information effectively and can improve the accuracy of tag recommendation. In addition, this model performs well in the cold start situation and can achieve good quality to recommend new tags.
+\end{itemize}
+
+\hspace{-0.5cm}
+{\sihao{\textbf{Keywords:}}} \textit{Matrix Factorization;\, Local Information;\, Topic Model;\, Item Recommendation;\, Rating Prediction;\, Tag Recommendation.
+}
+%额外空白页
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,311 @@
+%!TEX program = xelatex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                                           %
+%          LaTeX File for Doctor (Master) Thesis of ECNU                    %
+%            华东师范大学博士（硕士）论文模板 ____lizb                      %
+%                                                                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\documentclass[12pt,openany,a4paper,fancyhdr,oneside]{ctexbook}
+
+%draft 选项可以使插入的图形只显示外框，以加快预览速度。
+%\documentclass[11pt,a4paper,openany,draft]{book}
+
+\usepackage[CJKbookmarks]{hyperref}
+\usepackage{shortvrb,indentfirst,ulem,makeidx}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{indentfirst,latexsym,amsthm,colortbl,subfigure,clrscode}
+\usepackage{algorithm}
+\usepackage[noend]{algorithmic}
+%\usepackage[ruled, vlined, linesnumbered]{algorithm2e}
+\usepackage{bm}                     % 处理数学公式中的黑斜体的宏包
+\usepackage{amsmath}                % AMSLaTeX宏包 用来排出更加漂亮的公式
+\usepackage{amssymb}                % AMSLaTeX宏包 用来排出更加漂亮的公式
+\usepackage{mathrsfs}
+\usepackage[subnum]{cases}
+\usepackage[numbers,sort&compress]{natbib} 
+\usepackage{hypernat}
+\usepackage{geometry}
+\usepackage{multirow}
+\usepackage{times}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage{url}
+\usepackage{caption}
+\usepackage{titletoc}
+\usepackage{slashbox}
+\usepackage{array}
+\usepackage{indentfirst} 
+\usepackage{color}
+\usepackage{epstopdf}
+\usepackage{rotating}
+\usepackage{supertabular} %supertabular表格宏包
+\usepackage{colortbl} %彩色表格宏包
+\usepackage{booktabs} %表格线宏包
+\usepackage{longtable} 
+\usepackage{bigstrut,multirow,rotating}
+\usepackage{enumerate}
+
+%设置bib的行间距
+\usepackage{setspace}
+\makeindex
+\pagestyle{fancy}
+\newcommand{\comment}[1]{}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[CO,CE]{\thepage}
+
+\renewcommand{\algorithmicrequire}{\textbf{输入:}}
+\renewcommand{\algorithmicensure}{\textbf{输出:}}
+\newcommand{\loflabel}{图}%在图目录编号前添加Tab.
+\newcommand{\lotlabel}{表}
+
+\newcommand{\ie}{\textit{i.e., }}
+\newcommand{\aka}{\textit{i.e., }}
+\newcommand{\eg}{\textit{e.g., }}
+\newcommand{\etal}{\textit{et al. }}
+
+%                    根据自己正文需要做的一些定义                 %
+%==================================================================
+\def\diag{{\rm diag}}
+\def\rank{{\rm rank}}
+\def\RR{{\cal R}}
+\def\NN{{\cal N}}
+\def\R{{\mathbb R}}
+\def\C{{\mathbb C}}
+\let\dis=\displaystyle
+
+\def\p{\partial}
+\def\f{\frac}
+\def\mr{\mathrm}
+\def\mb{\mathbf}
+\def\mc{\mathcal}
+\def\b{\begin}
+\def\e{\end}
+
+\newtheorem{thm1}{Theorem}[part]
+\newtheorem{thm2}{Theorem}[section]
+\newtheorem{thm3}{Theorem}[subsection]
+\newtheorem{them}[thm2]{定理}
+\newtheorem{theorem}[thm2]{定理}
+\newtheorem{defn}[thm2]{定义}
+\newtheorem{define}[thm2]{定义}
+\newtheorem{ex}[thm2]{例}
+\newtheorem{exs}[thm2]{例}
+\newtheorem{example}[thm2]{例}
+\newtheorem{prop}[thm2]{命题}
+\newtheorem{lemma}[thm2]{引理}
+\newtheorem{property}[thm2]{性质}
+\newtheorem{cor}[thm2]{推论}
+\newtheorem{remark}[thm2]{注释}
+\newtheorem{notation}[thm2]{记号}
+\newtheorem{abbre}[thm2]{缩写}
+%\newtheorem{algorithm}[thm2]{算法}
+\newtheorem{problem}[thm2]{问题}
+
+\newcommand{\vp} {\emph{{\textbf{p}}}}
+\newcommand{\va} {\emph{{\textbf{a}}}}
+\newcommand{\vb} {\emph{{\textbf{b}}}}
+\newcommand{\vd} {\emph{{\textbf{d}}}}
+\newcommand{\vq} {\emph{{\textbf{q}}}}
+\newcommand{\vc} {\emph{{\textbf{c}}}}
+\newcommand{\vu} {\emph{{\textbf{u}}}}
+\newcommand{\vl} {\emph{{\textbf{l}}}}
+\newcommand{\vw}{\emph{{\textbf{w}}}}
+
+\newcommand{\bp} {\textbf{p}}
+\newcommand{\bq} {\textbf{q}}
+\newcommand{\bc} {\textbf{c}}
+\newcommand{\ba} {\textbf{a}}
+\newcommand{\bd} {\textbf{d}}
+\newcommand{\bu} {\textbf{u}}
+\newcommand{\bl} {\textbf{l}}
+\newcommand{\bw} {\textbf{w}}
+
+%重新设置证明的其实标题
+\floatname{algorithm}{算法}
+\renewcommand{\proofname}{\textit{证明}}
+\usepackage{etoolbox}  % patch def of algorithmic environment
+\makeatletter
+\newcommand*\bigcdot{\mathpalette\bigcdot@{.5}}
+\newcommand*\bigcdot@[2]{\mathbin{\vcenter{\hbox{\scalebox{#2}{$\m@th#1\bullet$}}}}}
+\newcommand\specialsectioning{\setcounter{secnumdepth}{-2}}
+\patchcmd{\algorithmic}{\addtolength{\ALC@tlm}{\leftmargin} }{\addtolength{\ALC@tlm}{\leftmargin}}{}{}
+\makeatother
+
+\renewcommand\algorithmiccomment[1]{%
+		\hfill\#\ #1%
+}
+
+\newcommand{\yihao}{\fontsize{26pt}{36pt}\selectfont}           % 一号, 1.4 倍行距
+\newcommand{\erhao}{\fontsize{22pt}{28pt}\selectfont}          % 二号, 1.25倍行距
+\newcommand{\xiaoer}{\fontsize{18pt}{18pt}\selectfont}          % 小二, 单倍行距
+\newcommand{\sanhao}{\fontsize{16pt}{24pt}\selectfont}        % 三号, 1.5倍行距
+\newcommand{\xiaosan}{\fontsize{15pt}{22pt}\selectfont}        % 小三, 1.5倍行距
+\newcommand{\sihao}{\fontsize{14pt}{21pt}\selectfont}            % 四号, 1.5 倍行距
+\newcommand{\banxiaosi}{\fontsize{13pt}{19.5pt}\selectfont}    % 半小四, 1.5倍行距
+\newcommand{\xiaosi}{\fontsize{12pt}{18pt}\selectfont}            % 小四, 1.5倍行距
+\newcommand{\dawuhao}{\fontsize{11pt}{11pt}\selectfont}       % 大五号, 单倍行距
+\newcommand{\wuhao}{\fontsize{10.5pt}{15.75pt}\selectfont}    % 五号, 单倍行距
+
+
+%============================ 可以自定义文字块 ================================%
+
+\newcommand{\aaa}{Example}
+\newcommand{\bbb}{\aaa \aaa \aaa}
+\newcommand{\ccc}{\bbb \bbb \bbb \bbb \bbb
+
+\bbb \bbb \bbb \bbb \bbb }
+\newcommand{\abc}{abcdefg1234567890}
+\newcommand{\upabc}{ABCDEFGHIJK}
+
+
+%%% ----------------------------------------------------------------------
+
+%设置每章标题前后的间距
+\CTEXsetup[beforeskip = 0pt]{chapter}
+\CTEXsetup[afterskip = 20pt]{chapter}
+\setlength{\baselineskip}{25pt}  %%正文设为25磅行间距
+
+%============================= 版芯控制 ================================%
+\setlength{\oddsidemargin}{0.57cm} 
+\setlength{\evensidemargin}{\oddsidemargin}
+\voffset-6mm \textwidth=150mm \textheight=230mm \headwidth=150mm
+%\rightmargin=35mm
+%                                                                       %
+
+%============================= 页面设置 ================================%
+%-------------------- 定义页眉和页脚 使用fancyhdr 宏包 -----------------%
+% 定义页眉与正文间双隔线
+\newcommand{\makeheadrule}{%
+\makebox[0pt][l]{\rule[.7\baselineskip]{\headwidth}{0.4pt}}%
+\rule[0.85\baselineskip]{\headwidth}{0.4pt} \vskip-.8\baselineskip}
+\lhead{}
+\chead{华东师范大学博士论文}
+\rhead{}
+\makeatletter
+
+%新加的，为每章首页添加页眉
+\makeatletter
+\let\ps@plain\ps@fancy
+\makeatother
+
+\renewcommand{\headrule}{%
+{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi
+\makeheadrule}} \makeatother
+
+\newcommand{\adots}{\mathinner{\mkern 2mu%
+\raisebox{0.1em}{.}\mkern 2mu\raisebox{0.4em}{.}%
+\mkern2mu\raisebox{0.7em}{.}\mkern 1mu}}
+
+\setmainfont{Times New Roman}
+\dottedcontents{chapter}[1.5cm]{\xiaosi\heiti}{3.8em}{9.5pt}
+\dottedcontents{section}[1.5cm]{\xiaosi\heiti}{2.8em}{9.5pt}
+
+
+
+%=============================== 正文部分 ================================%
+
+
+\begin{document}
+\input {A1-COVER-1.tex}%中文封面
+\input {A2-COVER-E.tex}%英文封面
+\input {A3-COPYRIGHT.tex}%版权页
+\input {A4-MEMBERLIST.tex}%答辩委员会名单
+
+
+\newpage
+\pagenumbering{roman}
+\pagestyle{plain}
+\input {B1-ABSTRACT.tex} %中文摘要
+\input {B2-ABSTRACT-E.tex}%英文摘要
+\setcounter{secnumdepth}{3}
+
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+
+%\clearpage
+%\phantom{s}
+%\clearpage
+
+% 插图目录
+\renewcommand{\numberline}[1]{\loflabel~#1\hspace*{1em}}%设置图目录编号样式，主要是间距
+\listoffigures%自动生成图目录
+
+% 表格目录
+\renewcommand{\numberline}[1]{\lotlabel~#1\hspace*{1em}}
+\listoftables
+
+
+
+%额外空白页
+%\clearpage
+%\phantom{s}
+%\clearpage
+
+\newpage
+\pagenumbering{arabic}
+\pagestyle{fancy}
+
+\CTEXsetup[format+={\zihao{3}\heiti}]{chapter}
+\CTEXsetup[format+={\raggedright\zihao{4}\heiti}]{section}
+\CTEXsetup[format+={\zihao{-4}\heiti}]{subsection}
+%\CTEXsetup[format+={\fontsize{10.5pt}{15.75pt}\heiti}]{subsection}
+
+\setlength{\baselineskip}{25pt}  %%正文设为25磅行间距
+
+\input {C1-INTRODUCTION.tex}  %%%%%%%%%%！！！！！！！！%%%%%%%
+\input {C2-RELATED.tex}
+\input {C3-Framework.tex}
+\input {C4-FTB.tex}
+\input {C5-FLB.tex}
+%\input {C6-CONCLUSION.tex}
+
+
+
+\clearpage
+
+%额外空白页
+
+
+\addcontentsline{toc}{chapter}{参考文献}
+%\input D1-REFRENCE.tex
+
+\begin{spacing}{1.2}
+\bibliographystyle{gbt7714-2005}
+\bibliography{reference}
+\end{spacing}
+\clearpage
+\phantom{s}
+\clearpage
+
+\pagestyle{plain}\clearpage
+\pagestyle{plain}
+\clearpage
+%\phantomsection
+\addcontentsline{toc}{chapter}{附录}
+\input {D1-APPENDIX.tex} %术语
+\pagestyle{plain}
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{致谢}
+\input {D2-ACHNOWLEDGEMENT.tex} %致谢
+
+
+%\pagestyle{plain}
+%\clearpage 
+%\phantomsection
+
+
+\addcontentsline{toc}{chapter}{发表论文和科研情况}
+\input {D3-MYACHIEVEMENTS.tex}
+
+
+\printindex
+\end{document}

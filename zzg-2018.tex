@@ -91,7 +91,7 @@
 \newtheorem{thm1}{Theorem}[part]
 \newtheorem{thm2}{Theorem}[section]
 \newtheorem{thm3}{Theorem}[subsection]
-\newtheorem{them}[thm2]{定理}
+%\newtheorem{them}[thm2]{定理}
 \newtheorem{theorem}[thm2]{定理}
 \newtheorem{defn}[thm2]{定义}
 \newtheorem{define}[thm2]{定义}
@@ -285,18 +285,28 @@
 \phantom{s}
 \clearpage
 
-\pagestyle{plain}\clearpage
+
+%\addcontentsline{toc}{chapter}{附录}
+%\input {D-LCSS.tex}
+
+\pagestyle{plain}
+\clearpage
 \pagestyle{plain}
 \clearpage
 %\phantomsection
-\addcontentsline{toc}{chapter}{附录}
+\addcontentsline{toc}{chapter}{附录一}
 \input {D1-APPENDIX.tex} %术语
 \pagestyle{plain}
 \clearpage
 \phantomsection
+%\addcontentsline{toc}{chapter}{附录二}
+%\input {D-LCSS.tex}
+%\pagestyle{plain}
+%\clearpage
+%\phantomsection
+
 \addcontentsline{toc}{chapter}{致谢}
 \input {D2-ACHNOWLEDGEMENT.tex} %致谢
-
 
 %\pagestyle{plain}
 %\clearpage 

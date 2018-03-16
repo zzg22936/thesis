@@ -38,17 +38,106 @@
   York,USA}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
   \bibyear{2011}\thinspace{}\textnormal{: }\bibpages{16}\@.
 
+\bibitem{Gonz2008Understanding}
+\bibauthor{GONZ{\'{A}}LEZ M~C\@, HIDALGO C~A\@, BARABáSI A~L}\@.
+  \bibtitle{Understanding individual human mobility patterns.}\bibmark{[J]}\@.
+  \bibjournal{Nature}\@, \bibyear{2008}\@,
+  \bibvolume{453}\bibnumber{(7196)}\thinspace{}\textnormal{: }\bibpages{779}\@.
+
+\bibitem{Song2010Limits}
+\bibauthor{SONG C\@, BARABáSI A~L}\@. \bibtitle{Limits of Predictability in
+  Human Mobility}\bibmark{[J]}\@. \bibjournal{Science}\@, \bibyear{2010}\@,
+  \bibvolume{327}\bibnumber{(5968)}\thinspace{}\textnormal{:
+  }\bibpages{1018}\@.
+
+\bibitem{LiDHKN10}
+\bibauthor{LI Z\@, DING B\@, HAN J, et~al}\@. \bibtitle{Mining periodic
+  behaviors for moving objects}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 16th {ACM} International
+  Conference on Knowledge Discovery and Data Mining {(SIGKDD)}}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{1099\thinspace{}\textnormal{--}\thinspace{}1108}\@.
+
+\bibitem{zzgSF}
+\bibauthor{章志刚\@, 金澈清\@, 王晓玲, et~al}\@.
+  \bibtitle{面向海量低质手机轨迹数据的重要位置发现}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2016}\@,
+  \bibvolume{27}\bibnumber{(7)}\thinspace{}\textnormal{:
+  }\bibpages{1700\thinspace{}\textnormal{--}\thinspace{}1714}\@.
+
 \bibitem{Zheng15}
 \bibauthor{ZHENG Y}\@. \bibtitle{Trajectory Data Mining: An
   Overview}\bibmark{[J]}\@. \bibjournal{{ACM} {TIST}}\@, \bibyear{2015}\@,
   \bibvolume{6}\bibnumber{(3)}\thinspace{}\textnormal{:
   }\bibpages{29:1\thinspace{}\textnormal{--}\thinspace{}29:41}\@.
 
+\bibitem{QSJPredict}
+\bibauthor{乔少杰\@, 金琨\@, 韩楠, et~al}\@.
+  \bibtitle{一种基于高斯混合模型的轨迹预测算法}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2015}\@,
+  \bibvolume{26}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{1048\thinspace{}\textnormal{--}\thinspace{}1063}\@.
+
+\bibitem{QSJProjection}
+\bibauthor{乔少杰\@, 韩楠\@, 李天瑞, et~al}\@.
+  \bibtitle{基于前缀投影技术的大规模轨迹预测模型}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2017}\@,
+  \bibvolume{28}\bibnumber{(11)}\thinspace{}\textnormal{:
+  }\bibpages{3043\thinspace{}\textnormal{--}\thinspace{}3057}\@.
+
+\bibitem{LXX}
+\bibauthor{李晓旭\@, 于亚新\@, 张文超, et~al}\@. \bibtitle{基于
+  MapReduce 的 Coteries
+  轨迹模式挖掘及个性化旅游路线推荐}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2018}\@,
+  \bibvolume{29}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{587\thinspace{}\textnormal{--}\thinspace{}598}\@.
+
+\bibitem{CJY}
+\bibauthor{陈锦阳\@, 刘良旭\@, 宋加涛, et~al}\@.
+  \bibtitle{基于R-tree的高效异常轨迹检测算法}\bibmark{[J]}\@.
+  \bibjournal{计算机应用与软件}\@, \bibyear{2011}\@,
+  \bibvolume{20}\bibnumber{(10)}\thinspace{}\textnormal{:
+  }\bibpages{2426\thinspace{}\textnormal{--}\thinspace{}2435}\@.
+
+\bibitem{MJLSoftware}
+\bibauthor{毛嘉莉\@, 金澈清\@, 章志刚, et~al}\@.
+  \bibtitle{轨迹大数据异常检测:研究进展及系统框架}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2017}\@,
+  \bibvolume{28}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{17\thinspace{}\textnormal{--}\thinspace{}34}\@.
+
+\bibitem{QGD}
+\bibauthor{齐观德\@, 潘遥\@, 李石坚, et~al}\@.
+  \bibtitle{基于出租车轨迹数据挖掘的乘客候车时间预测}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2013}\@.
+
+\bibitem{XJJZXF}
+\bibauthor{许佳捷\@, 郑凯\@, 池明旻, et~al}\@.
+  \bibtitle{轨迹大数据:数据、应用与技术现状}\bibmark{[J]}\@.
+  \bibjournal{通信学报}\@, \bibyear{2015}\@,
+  \bibvolume{36}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{97\thinspace{}\textnormal{--}\thinspace{}105}\@.
+
+\bibitem{GQSurvery}
+\bibauthor{高强\@, 张凤荔\@, 王瑞锦, et~al}\@.
+  \bibtitle{轨迹大数据:数据处理关键技术研究综述}\bibmark{[J]}\@.
+  \bibjournal{软件学报}\@, \bibyear{2017}\@,
+  \bibvolume{28}\bibnumber{(4)}\thinspace{}\textnormal{:
+  }\bibpages{959\thinspace{}\textnormal{--}\thinspace{}992}\@.
+
+\bibitem{BT}
+\bibauthor{包婷\@, 章志刚\@, 金澈清}\@.
+  \bibtitle{基于手机大数据的城市人口流动分析系统}\bibmark{[J]}\@.
+  \bibjournal{华东师范大学学报(自然科学版)}\@, \bibyear{2015}\@,
+  \bibvolume{2015}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{162\thinspace{}\textnormal{--}\thinspace{}171}\@.
+
 \bibitem{SharkDB}
 \bibauthor{WANG H\@, ZHENG K\@, XU J, et~al}\@. \bibtitle{SharkDB: An In-Memory
   Column-Oriented Trajectory Storage}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 23rd {ACM} International
-  Conference on Conference on Information and Knowledge Management, {CIKM}}\@.
+  Conference on Conference on Information and Knowledge Management {(CIKM)}}\@.
   \bibyear{2014}\thinspace{}\textnormal{:
   }\bibpages{1409\thinspace{}\textnormal{--}\thinspace{}1418}\@.
 
@@ -56,7 +145,7 @@
 \bibauthor{TAN H\@, LUO W\@, NI L~M}\@. \bibtitle{CloST: a hadoop-based storage
   system for big spatio-temporal data analytics}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 23rd {ACM} International
-  Conference on Conference on Information and Knowledge Management{(CIKM)}}\@.
+  Conference on Conference on Information and Knowledge Management {(CIKM)}}\@.
   \bibyear{2012}\thinspace{}\textnormal{:
   }\bibpages{2139\thinspace{}\textnormal{--}\thinspace{}2143}\@.
 
@@ -85,7 +174,7 @@
 \bibitem{CostaMM14}
 \bibauthor{COSTA G\@, MANCO G\@, MASCIARI E}\@. \bibtitle{Dealing with
   trajectory streams by clustering and mathematical transforms}\bibmark{[J]}\@.
-  \bibjournal{Journal of Intelligent Information Systems,}\@, \bibyear{2014}\@,
+  \bibjournal{Journal of Intelligent Information Systems}\@, \bibyear{2014}\@,
   \bibvolume{42}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{155\thinspace{}\textnormal{--}\thinspace{}177}\@.
 
@@ -163,7 +252,7 @@
 \bibauthor{HSU C-C\@, KUNG P-H\@, YEH M-Y, et~al}\@.
   \bibtitle{Bandwidth-efficient distributed k-nearest-neighbor search with
   dynamic time warping}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of
-  the 2015 International Conference on Big Data{(ICBD)}}\@.
+  the 2015 International Conference on Big Data {(ICBD)}}\@.
   \bibyear{2015}\thinspace{}\textnormal{:
   }\bibpages{551\thinspace{}\textnormal{--}\thinspace{}560}\@.
 
@@ -194,7 +283,7 @@
 \bibitem{ERP}
 \bibauthor{CHEN L\@, NG R~T}\@. \bibtitle{On The Marriage of Lp-norms and Edit
   Distance}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 30th
-  International Conference on Very Large{(VLDB)}}\@.
+  International Conference on Very Large {(VLDB)}}\@.
   \bibyear{2004}\thinspace{}\textnormal{:
   }\bibpages{792\thinspace{}\textnormal{--}\thinspace{}803}\@.
 
@@ -219,6 +308,14 @@
   \bibjournal{GeoInformatica}\@, \bibyear{2008}\@,
   \bibvolume{12}\bibnumber{(2)}\thinspace{}\textnormal{:
   }\bibpages{117\thinspace{}\textnormal{--}\thinspace{}142}\@.
+
+\bibitem{RanuPTDR15}
+\bibauthor{RANU S\@, P D\@, TELANG A~D, et~al}\@. \bibtitle{Indexing and
+  matching trajectories under inconsistent sampling rates}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 31st {IEEE} International
+  Conference on Data Engineering {(ICDE)}}\@.
+  \bibyear{2015}\thinspace{}\textnormal{:
+  }\bibpages{999\thinspace{}\textnormal{--}\thinspace{}1010}\@.
 
 \bibitem{Liu012}
 \bibauthor{LIU H\@, SCHNEIDER M}\@. \bibtitle{Similarity measurement of moving
@@ -273,6 +370,28 @@
   Conference on Data Engineering {(ICDE)}}\@.
   \bibyear{2012}\thinspace{}\textnormal{:
   }\bibpages{510\thinspace{}\textnormal{--}\thinspace{}521}\@.
+
+\bibitem{CIKMSimilarity}
+\bibauthor{ZEINALIPOUR{-}YAZTI D\@, LIN S\@, GUNOPULOS D}\@.
+  \bibtitle{Distributed spatio-temporal similarity search}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 15th ACM International
+  Conference on Information and Knowledge Management (CIKM)}\@.
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{14\thinspace{}\textnormal{--}\thinspace{}23}\@.
+
+\bibitem{WYL}
+\bibauthor{王艺霖\@, 章志刚\@, 金澈清}\@.
+  \bibtitle{智能交通刷卡记录中的公交站点恢复方法}\bibmark{[J]}\@.
+  \bibjournal{华东师范大学学报(自然科学版)}\@, \bibyear{2017}\@,
+  \bibvolume{2017}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{201\thinspace{}\textnormal{--}\thinspace{}212}\@.
+
+\bibitem{LeeHW07}
+\bibauthor{LEE J\@, HAN J\@, WHANG K}\@. \bibtitle{Trajectory clustering: a
+  partition-and-group framework}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the {ACM} International Conference
+  on Management of Data {(SIGMOD)}}\@. \bibyear{2007}\thinspace{}\textnormal{:
+  }\bibpages{593\thinspace{}\textnormal{--}\thinspace{}604}\@.
 
 \bibitem{jiang}
 \bibauthor{江俊文\@, 王晓玲}\@.
@@ -399,7 +518,7 @@
 \bibauthor{KELLARIS G\@, PELEKIS N\@, THEODORIDIS Y}\@. \bibtitle{Trajectory
   Compression under Network Constraints}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 11th International Symposium
-  on Advances in Spatial and Temporal Databases{(SSTD)}}\@.
+  on Advances in Spatial and Temporal Databases {(SSTD)}}\@.
   \bibyear{2009}\thinspace{}\textnormal{:
   }\bibpages{392\thinspace{}\textnormal{--}\thinspace{}398}\@.
 
@@ -414,7 +533,7 @@
 \bibauthor{SONG R\@, SUN W\@, ZHENG B, et~al}\@. \bibtitle{{PRESS:} {A} Novel
   Framework of Trajectory Compression in Road Networks}\bibmark{[J]}\@.
   \bibjournal{Procedings of the 40th International Conference on Very Large
-  Data Bases{(PVLDB)}}\@, \bibyear{2014}\@,
+  Data Bases {(PVLDB)}}\@, \bibyear{2014}\@,
   \bibvolume{7}\bibnumber{(9)}\thinspace{}\textnormal{:
   }\bibpages{661\thinspace{}\textnormal{--}\thinspace{}672}\@.
 
@@ -435,7 +554,7 @@
 \bibitem{STMaker}
 \bibauthor{SU H\@, ZHENG K\@, ZENG K, et~al}\@. \bibtitle{STMaker - {A} System
   to Make Sense of Trajectory Data}\bibmark{[J]}\@. \bibjournal{Procedings of
-  the 40th International Conference on Very Large Data Bases{(PVLDB)}}\@,
+  the 40th International Conference on Very Large Data Bases {(PVLDB)}}\@,
   \bibyear{2014}\@, \bibvolume{7}\bibnumber{(13)}\thinspace{}\textnormal{:
   }\bibpages{1701\thinspace{}\textnormal{--}\thinspace{}1704}\@.
 
@@ -451,7 +570,7 @@
 \bibauthor{XIANGYE X\@, YU Z\@, QIONG L, et~al}\@. \bibtitle{Finding Similar
   Users Using Category-based Location History}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 18th International Conference
-  on Advances in Geographic Information Systems{(SIGSPATIAL)}}\@.
+  on Advances in Geographic Information Systems {(SIGSPATIAL)}}\@.
   \bibyear{2010}\thinspace{}\textnormal{:
   }\bibpages{442\thinspace{}\textnormal{--}\thinspace{}445}\@.
 
@@ -467,7 +586,7 @@
 \bibauthor{SHANG S\@, DING R\@, YUAN B, et~al}\@. \bibtitle{User oriented
   trajectory search for trip recommendation}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 15th International Conference
-  on Extending Database Technology, {(EDBT)}}\@.
+  on Extending Database Technology {(EDBT)}}\@.
   \bibyear{2012}\thinspace{}\textnormal{:
   }\bibpages{156\thinspace{}\textnormal{--}\thinspace{}167}\@.
 
@@ -482,7 +601,7 @@
 \bibauthor{CHAKKA V~P\@, EVERSPAUGH A\@, PATEL J~M}\@. \bibtitle{Indexing large
   trajectory data sets with SETI}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the First Biennial Conference on
-  Innovative Data Systems CIDR\thinspace{}\textnormal{: }Vol~1001}\@.
+  Innovative Data Systems {(CIDR)}\thinspace{}\textnormal{: }Vol~1001}\@.
   \bibyear{2003}\thinspace{}\textnormal{: }\bibpages{12}\@.
 
 \bibitem{Cudre-MaurouxWM10}
@@ -563,16 +682,15 @@
 \bibitem{ChenSZZX10}
 \bibauthor{CHEN Z\@, SHEN H~T\@, ZHOU X, et~al}\@. \bibtitle{Searching
   trajectories by locations: an efficiency study}\bibmark{[C]}
-  //\thinspace{}\bibbooktitle{Proceedings of the {ACM} {SIGMOD} International
-  Conference on Management of Data {(SIGMOD)}}\@.
-  \bibyear{2010}\thinspace{}\textnormal{:
+  //\thinspace{}\bibbooktitle{Proceedings of the {ACM} International Conference
+  on Management of Data {(SIGMOD)}}\@. \bibyear{2010}\thinspace{}\textnormal{:
   }\bibpages{255\thinspace{}\textnormal{--}\thinspace{}266}\@.
 
 \bibitem{Skoumas}
 \bibauthor{GEORGIOS S\@, DIMITRIOS S\@, ALEXANDRA V}\@. \bibtitle{Efficient
   Identification and Approximation of K-nearest Moving Neighbors}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 21st ACM International
-  Conference on Advances in Geographic Information Systems{(SIGSPATIAL)}}\@.
+  Conference on Advances in Geographic Information Systems {(SIGSPATIAL)}}\@.
   \bibyear{2013}\thinspace{}\textnormal{:
   }\bibpages{264\thinspace{}\textnormal{--}\thinspace{}273}\@.
 
@@ -585,8 +703,7 @@
 \bibauthor{WANG S\@, BAO Z\@, CULPEPPER J~S, et~al}\@. \bibtitle{Answering
   Top-k Exemplar Trajectory Queries}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{33rd {IEEE} International Conference on Data
-  Engineering, {ICDE} 2017, San Diego, CA, USA, April 19-22, 2017}\@.
-  \bibyear{2017}\thinspace{}\textnormal{:
+  Engineering {(ICDE)}}\@. \bibyear{2017}\thinspace{}\textnormal{:
   }\bibpages{597\thinspace{}\textnormal{--}\thinspace{}608}\@.
 
 \bibitem{SacharidisSS14}
@@ -645,7 +762,7 @@
 \bibauthor{LI G\@, LI Y\@, SHU L, et~al}\@. \bibtitle{CkNN Query Processing
   over Moving Objects with Uncertain Speeds in Road Networks}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 13th Asia-Pacific Web
-  Conference on Web Technologies and Applications{(APWeb)}}\@.
+  Conference on Web Technologies and Applications {(APWeb)}}\@.
   \bibyear{2011}\thinspace{}\textnormal{:
   }\bibpages{65\thinspace{}\textnormal{--}\thinspace{}76}\@.
 
@@ -653,7 +770,7 @@
 \bibauthor{LU J\@, G{\"{U}}TING R~H}\@. \bibtitle{Parallel Secondo: Boosting
   Database Engines with Hadoop}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 18th {IEEE} International
-  Conference on Parallel and Distributed Systems{(ICPADS)}}\@.
+  Conference on Parallel and Distributed Systems {(ICPADS)}}\@.
   \bibyear{2012}\thinspace{}\textnormal{:
   }\bibpages{738\thinspace{}\textnormal{--}\thinspace{}743}\@.
 
@@ -669,7 +786,7 @@
 \bibauthor{YANG B\@, MA Q\@, QIAN W, et~al}\@. \bibtitle{{TRUSTER:} TRajectory
   Data Processing on ClUSTERs}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 14th International Conference
-  Database Systems for Advanced Applications{(DASFAA)}}\@.
+  Database Systems for Advanced Applications {(DASFAA)}}\@.
   \bibyear{2009}\thinspace{}\textnormal{:
   }\bibpages{768\thinspace{}\textnormal{--}\thinspace{}771}\@.
 
@@ -685,7 +802,7 @@
 \bibauthor{ALY A~M\@, MAHMOOD A~R\@, HASSAN M~S, et~al}\@. \bibtitle{{AQWA:}
   Adaptive Query-Workload-Aware Partitioning of Big Spatial
   Data}\bibmark{[J]}\@. \bibjournal{Procedings of the 41st International
-  Conference on Very Large Data Bases{(PVLDB)}}\@, \bibyear{2015}\@,
+  Conference on Very Large Data Bases {(PVLDB)}}\@, \bibyear{2015}\@,
   \bibvolume{8}\bibnumber{(13)}\thinspace{}\textnormal{:
   }\bibpages{2062\thinspace{}\textnormal{--}\thinspace{}2073}\@.
 
@@ -708,7 +825,7 @@
 \bibauthor{AJI A\@, WANG F\@, VO H, et~al}\@. \bibtitle{Hadoop-GIS: {A} High
   Performance Spatial Data Warehousing System over MapReduce}\bibmark{[J]}\@.
   \bibjournal{Procedings of the 39th International Conference on Very Large
-  Data Bases{(PVLDB)}}\@, \bibyear{2013}\@,
+  Data Bases {(PVLDB)}}\@, \bibyear{2013}\@,
   \bibvolume{6}\bibnumber{(11)}\thinspace{}\textnormal{:
   }\bibpages{1009\thinspace{}\textnormal{--}\thinspace{}1020}\@.
 
@@ -716,7 +833,7 @@
 \bibauthor{NISHIMURA S\@, DAS S\@, AGRAWAL D, et~al}\@. \bibtitle{{MD}-HBase:
   design and implementation of an elastic data infrastructure for cloud-scale
   location services}\bibmark{[J]}\@. \bibjournal{Distributed and Parallel
-  Databases{(DPD)}}\@, \bibyear{2013}\@,
+  Databases {(DPD)}}\@, \bibyear{2013}\@,
   \bibvolume{31}\bibnumber{(2)}\thinspace{}\textnormal{:
   }\bibpages{289\thinspace{}\textnormal{--}\thinspace{}319}\@.
 
@@ -746,7 +863,7 @@
 \bibauthor{YOU S\@, ZHANG J\@, GRUENWALD L}\@. \bibtitle{Large-scale spatial
   join query processing in Cloud}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 31st {IEEE} International
-  Conference on Data Engineering{(ICDE)} Workshops}\@.
+  Conference on Data Engineering {(ICDE)} Workshops}\@.
   \bibyear{2015}\thinspace{}\textnormal{:
   }\bibpages{34\thinspace{}\textnormal{--}\thinspace{}41}\@.
 
@@ -762,7 +879,7 @@
 \bibauthor{TANG M\@, YU Y\@, MALLUHI Q~M, et~al}\@. \bibtitle{Locationspark: a
   distributed in-memory data management system for big spatial
   data}\bibmark{[J]}\@. \bibjournal{Procedings of the 42nd International
-  Conference on Very Large Data Bases{(PVLDB)}}\@, \bibyear{2016}\@,
+  Conference on Very Large Data Bases {(PVLDB)}}\@, \bibyear{2016}\@,
   \bibvolume{9}\bibnumber{(13)}\thinspace{}\textnormal{:
   }\bibpages{1565\thinspace{}\textnormal{--}\thinspace{}1568}\@.
 
@@ -778,7 +895,7 @@
 \bibauthor{YUAN M\@, DENG K\@, ZENG J, et~al}\@. \bibtitle{OceanST: a
   distributed analytic system for large-scale spatiotemporal mobile broadband
   data}\bibmark{[J]}\@. \bibjournal{Procedings of the 40th International
-  Conference on Very Large Data Bases{(PVLDB)}}\@, \bibyear{2014}\@,
+  Conference on Very Large Data Bases {(PVLDB)}}\@, \bibyear{2014}\@,
   \bibvolume{7}\bibnumber{(1561-1564)}\@.
 
 \bibitem{STORM}
@@ -793,7 +910,7 @@
 \bibauthor{GOWANLOCK M~G\@, CASANOVA H}\@. \bibtitle{Distance threshold
   similarity searches on spatiotemporal trajectories using
   {GPGPU}}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 21st
-  International Conference on High Performance Computing{(HiPC)}}\@.
+  International Conference on High Performance Computing {(HiPC)}}\@.
   \bibyear{2014}\thinspace{}\textnormal{:
   }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}10}\@.
 
@@ -801,7 +918,7 @@
 \bibauthor{ZHANG J\@, YOU S\@, LE G}\@. \bibtitle{U2STRA:high-performance data
   management of ubiquitous urban sensing trajectories on GPGPUs}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 2012 ACM Workshop on City Data
-  Management Workshop{(CDMW)}}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  Management Workshop {(CDMW)}}\@. \bibyear{2012}\thinspace{}\textnormal{:
   }\bibpages{5\thinspace{}\textnormal{--}\thinspace{}12}\@.
 
 \bibitem{LealGZY15}
@@ -820,14 +937,6 @@
   Conference on Big Data {(ICBD)}}\@. \bibyear{2016}\thinspace{}\textnormal{:
   }\bibpages{206\thinspace{}\textnormal{--}\thinspace{}213}\@.
 
-\bibitem{CIKMSimilarity}
-\bibauthor{ZEINALIPOUR{-}YAZTI D\@, LIN S\@, GUNOPULOS D}\@.
-  \bibtitle{Distributed spatio-temporal similarity search}\bibmark{[C]}
-  //\thinspace{}\bibbooktitle{Proceedings of the 15th ACM International
-  Conference on Information and Knowledge Management (CIKM)}\@.
-  \bibyear{2006}\thinspace{}\textnormal{:
-  }\bibpages{14\thinspace{}\textnormal{--}\thinspace{}23}\@.
-
 \bibitem{PapadopoulosM01}
 \bibauthor{PAPADOPOULOS A\@, MANOLOPOULOS Y}\@. \bibtitle{Distributed
   Processing of Similarity Queries}\bibmark{[J]}\@. \bibjournal{Distributed and
@@ -839,7 +948,7 @@
 \bibauthor{YEH M~Y\@, WU K~L\@, YU P~S, et~al}\@. \bibtitle{LeeWave: level-wise
   distribution of wavelet coefficients for processing kNN queries over
   distributed streams}\bibmark{[J]}\@. \bibjournal{Procedings of the 34th
-  International Conference on Very Large Data Bases{(PVLDB)}}\@,
+  International Conference on Very Large Data Bases {(PVLDB)}}\@,
   \bibyear{2008}\@, \bibvolume{1}\bibnumber{(1)}\thinspace{}\textnormal{:
   }\bibpages{586\thinspace{}\textnormal{--}\thinspace{}597}\@.
 
@@ -847,8 +956,14 @@
 \bibauthor{KASHYAP S\@, KARRAS P}\@. \bibtitle{Scalable kNN search on
   vertically stored time series}\bibmark{[C]}
   //\thinspace{}\bibbooktitle{Proceedings of the 17th {ACM} International
-  Conference on Knowledge Discovery and Data Mining {SIGKDD}}\@.
+  Conference on Knowledge Discovery and Data Mining {(SIGKDD)}}\@.
   \bibyear{2011}\thinspace{}\textnormal{:
   }\bibpages{1334\thinspace{}\textnormal{--}\thinspace{}1342}\@.
+
+\bibitem{XXD}
+\bibauthor{龚旭东}\@.
+  \bibtitle{轨迹数据相似性查询及其应用研究}\bibmark{[D]}\@.
+  \bibaddress{合肥: 中国科学技术大学}\thinspace{}\textnormal{:
+  }\bibschool{中国科学技术大学}\@, \bibyear{2015}\@.
 
 \end{thebibliography}

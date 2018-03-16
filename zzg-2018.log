@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.12.10)  6 MAR 2018 18:38
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.12.10)  16 MAR 2018 10:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3457,24 +3457,20 @@ Invalid UTF-8 byte or sequence at line 34 replaced by U+FFFD.
 File: Fig/chapter1/CoorRemote.eps Graphic file (type eps)
 <Fig/chapter1/CoorRemote.eps>
  [2] [3]
-
-Package natbib Warning: Citation `KDDSimilarity' on page 4 undefined on input l
-ine 48.
-
 Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 57 replaced by U+FFFD.
 File: Fig/chapter1/coor-remote.eps Graphic file (type eps)
 <Fig/chapter1/coor-remote.eps>
-[4] [5] [6]
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
+ [4] [5] [6] [7]
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 93 replaced by U+FFFD.
 File: Fig/chapter1/paperStructure.eps Graphic file (type eps)
 <Fig/chapter1/paperStructure.eps>
- [7] [8] [9
+ [8] [9
 
 ]) (./C2-RELATED.tex
 第二章
@@ -3596,100 +3592,113 @@ Requested font "cmr12" at 12.045pt
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 32.
+(hyperref)                removing `math shift' on input line 33.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 32.
+(hyperref)                removing `math shift' on input line 33.
 
 [11]
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 46 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 45 replaced by U+FFFD.
 File: Fig/chapter2/Compress.eps Graphic file (type eps)
 <Fig/chapter2/Compress.eps>
  [12] [13]
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 75 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 74 replaced by U+FFFD.
 File: Fig/chapter2/signal.eps Graphic file (type eps)
 <Fig/chapter2/signal.eps>
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 78 replaced by U+FFFD.
 File: Fig/chapter2/DFT.eps Graphic file (type eps)
 <Fig/chapter2/DFT.eps>
  [14]
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 95 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 94 replaced by U+FFFD.
 File: Fig/chapter2/Haar.eps Graphic file (type eps)
 <Fig/chapter2/Haar.eps>
 File: Fig/chapter2/DFT.eps Graphic file (type eps)
 <Fig/chapter2/DFT.eps>
  [15] [16]
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 128 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
 File: Fig/chapter2/safearea.eps Graphic file (type eps)
 <Fig/chapter2/safearea.eps>
- [17] [18] [19] [20] [21]
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 238 replaced by U+FFFD.
+ [17] [18] [19] [20]
+Overfull \hbox (0.21194pt too wide) in paragraph at lines 184--189
+\TU/STSong(0)/m/n/12 不 同 的 情 况。| 假 设 给 定 两 条 轨 迹 分 别 为 $\OMS/cmsy/m/n/12 Q \OT1
+/cmr/m/n/12 = \OMS/cmsy/m/n/12 f[][]\OML/cmm/m/it/12 ; [][]; []  ; [][]\OMS/cms
+y/m/n/12 g$ \TU/STSong(0)/m/n/12 和 $\OMS/cmsy/m/n/12 P \OT1/cmr/m/n/12 = \OMS/c
+msy/m/n/12 f[][]\OML/cmm/m/it/12 ; [][]; []  ; [][]\OMS/cmsy/m/n/12 g$
+ []
+
+[21]
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 232 replaced by U+FFFD.
 File: Fig/chapter2/Hausdorff.eps Graphic file (type eps)
 <Fig/chapter2/Hausdorff.eps>
- [22]
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 247 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 239 replaced by U+FFFD.
 File: Fig/chapter2/dogpeople.eps Graphic file (type eps)
 <Fig/chapter2/dogpeople.eps>
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 257 replaced by U+FFFD.
+
+Overfull \hbox (3.41434pt too wide) in paragraph at lines 239--240
+ [][] 
+ []
+
+[22]
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 275 replaced by U+FFFD.
 File: Fig/chapter2/catagorySementic.eps Graphic file (type eps)
 <Fig/chapter2/catagorySementic.eps>
  [23]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 274.
+(hyperref)                removing `math shift' on input line 291.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 274.
+(hyperref)                removing `math shift' on input line 291.
 
 [24] [25] [26] [27] [28] [29]
-Overfull \hbox (6.40698pt too wide) in paragraph at lines 331--332
+Overfull \hbox (6.40698pt too wide) in paragraph at lines 349--350
 []\TU/STSong(0)/m/n/12 此 外，|  还 有 一 些 基 于 \TU/TimesNewRoman(0)/m/n/12 Hadoop \T
 U/STSong(0)/m/n/12 组 件 或 类 \TU/TimesNewRoman(0)/m/n/12 Hadoop \TU/STSong(0)/m/n
 /12 系 统 的 时 空 数 据 管 理 系 统。| \TU/TimesNewRoman(0)/m/n/12 Ablimit
  []
 
-[30] [31] [32] [33] [34
+[30] [31] [32] [33
 
 ]) (./C3-Framework.tex
 第三章
@@ -3702,7 +3711,7 @@ Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 8 replaced by U+FFFD.
 File: Fig/chapter3/Idea.eps Graphic file (type eps)
 <Fig/chapter3/Idea.eps>
-[35
+[34
 
 
 ]
@@ -3714,41 +3723,41 @@ Requested font "[LinBiolinum_R.otf]/OT:script=latn;language=DFLT;+tnum;mapping=
 tex-text;" at 6.0pt
  -> /usr/local/texlive/2016/texmf-dist/fonts/opentype/public/libertine/LinBioli
 num_R.otf
- [36]
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 65 replaced by U+FFFD.
+ [35]
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 66 replaced by U+FFFD.
 File: Fig/chapter3/FTB.eps Graphic file (type eps)
 <Fig/chapter3/FTB.eps>
- [37] [38]
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+ [36] [37]
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 84 replaced by U+FFFD.
 File: Fig/chapter3/Bound.eps Graphic file (type eps)
 <Fig/chapter3/Bound.eps>
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 95.
- [39] [40] [41]
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 178 replaced by U+FFFD.
+put line 96.
+ [38] [39] [40]
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 179 replaced by U+FFFD.
 File: Fig/chapter3/FLB.eps Graphic file (type eps)
 <Fig/chapter3/FLB.eps>
- [42] [43] [44] [45] [46] [47
+ [41] [42] [43] [44] [45] [46
 
 ]) (./C4-FTB.tex
 第四章
-[48
+[47
 
 
 ]
@@ -3762,31 +3771,29 @@ File: Fig/chapter4/ErrorTree.eps Graphic file (type eps)
 <Fig/chapter4/ErrorTree.eps>
 File: Fig/chapter4/ETreeExample.eps Graphic file (type eps)
 <Fig/chapter4/ETreeExample.eps>
- [49]
-Overfull \hbox (34.34334pt too wide) in paragraph at lines 58--61
-[]\TU/STSong(0)/m/n/12 首 先，| 对 于 $\OMS/cmsy/m/n/12 Q$ \TU/STSong(0)/m/n/12 和 $\
-OMS/cmsy/m/n/12 C$ \TU/STSong(0)/m/n/12 的 误 差 树 中 对 应 相 邻 节 点 对\TU/TimesNewRoma
-n(0)/m/n/12 :$\OMS/cmsy/m/n/12 f[][]\OML/cmm/m/it/12 ; [][]\OMS/cmsy/m/n/12 g$ 
-\TU/STSong(0)/m/n/12 和 $\OMS/cmsy/m/n/12 f[][]\OML/cmm/m/it/12 ; [][]\OMS/cmsy/
-m/n/12 g$\TU/STSong(0)/m/n/12 ，|
- []
-
-[50]
-Overfull \hbox (12.02437pt too wide) in paragraph at lines 77--79
-\TU/STSong(0)/m/n/12 此 外，|  由 于 原 始 轨 迹 间 的 距 离 可 以 根 据 两 个 误 差 树 的 叶 子 计 算 出 来
-，|  即 $\OML/cmm/m/it/12 SED[][] \OT1/cmr/m/n/12 =
- []
-
-[51] [52]
+ [48] [49]
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 87 replaced by U+FFFD.
+File: Fig/chapter4/distance.eps Graphic file (type eps)
+<Fig/chapter4/distance.eps>
+ [50] [51] [52]
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+File: Fig/chapter4/bound.eps Graphic file (type eps)
+<Fig/chapter4/bound.eps>
 LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <12> not avai
 lable
 (Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on inpu
-t line 145.
+t line 164.
 Requested font "Times New Roman/I/OT:script=latn;language=DFLT;mapping=tex-text
 ;" at 12.0pt
  -> /Library/Fonts/Times New Roman Italic.ttf
  [53] [54] [55] [56]
-Overfull \hbox (8.61597pt too wide) in paragraph at lines 234--239
+Overfull \hbox (8.61597pt too wide) in paragraph at lines 253--258
 []\TU/STSong(0)/m/n/12 在 本 章 的 实 验 中，|  我 们 将 比 较 \TU/TimesNewRoman(0)/m/n/12 E
 D-FTB \TU/STSong(0)/m/n/12 和 \TU/TimesNewRoman(0)/m/n/12 LEEWAVE-CL \TU/STSong(
 0)/m/n/12 算 法 的 性 能。| \TU/TimesNewRoman(0)/m/n/12 LEEWAVE-
@@ -3797,53 +3804,57 @@ File: Fig/chapter4/EDpruk1.eps Graphic file (type eps)
 <Fig/chapter4/EDpruk1.eps>
 File: Fig/chapter4/EDpruk10.eps Graphic file (type eps)
 <Fig/chapter4/EDpruk10.eps>
+File: Fig/chapter4/EDpruk50.eps Graphic file (type eps)
+<Fig/chapter4/EDpruk50.eps>
 File: Fig/chapter4/EDpruk100.eps Graphic file (type eps)
 <Fig/chapter4/EDpruk100.eps>
 File: Fig/chapter4/cmp1.eps Graphic file (type eps)
 <Fig/chapter4/cmp1.eps>
 File: Fig/chapter4/cmp10.eps Graphic file (type eps)
 <Fig/chapter4/cmp10.eps>
+File: Fig/chapter4/cmp50.eps Graphic file (type eps)
+<Fig/chapter4/cmp50.eps>
 File: Fig/chapter4/cmp100.eps Graphic file (type eps)
 <Fig/chapter4/cmp100.eps>
- [58]
+ [58] [59]
+File: Fig/chapter4/1k50m.eps Graphic file (type eps)
+<Fig/chapter4/1k50m.eps>
+File: Fig/chapter4/1000k50m.eps Graphic file (type eps)
+<Fig/chapter4/1000k50m.eps>
+File: Fig/chapter4/1k200m.eps Graphic file (type eps)
+<Fig/chapter4/1k200m.eps>
+File: Fig/chapter4/1000k200m.eps Graphic file (type eps)
+<Fig/chapter4/1000k200m.eps>
+ [60]
 File: Fig/chapter4/costM100.eps Graphic file (type eps)
 <Fig/chapter4/costM100.eps>
 File: Fig/chapter4/costM1000.eps Graphic file (type eps)
 <Fig/chapter4/costM1000.eps>
+File: Fig/chapter4/costM5000.eps Graphic file (type eps)
+<Fig/chapter4/costM5000.eps>
 File: Fig/chapter4/costM10000.eps Graphic file (type eps)
 <Fig/chapter4/costM10000.eps>
- [59]
+ [61]
 File: Fig/chapter4/cmpk1.eps Graphic file (type eps)
 <Fig/chapter4/cmpk1.eps>
 File: Fig/chapter4/cmpk10.eps Graphic file (type eps)
 <Fig/chapter4/cmpk10.eps>
+File: Fig/chapter4/cmpk50.eps Graphic file (type eps)
+<Fig/chapter4/cmpk50.eps>
 File: Fig/chapter4/cmpk100.eps Graphic file (type eps)
 <Fig/chapter4/cmpk100.eps>
+ [62]
 File: Fig/chapter4/edtimeScalability.eps Graphic file (type eps)
 <Fig/chapter4/edtimeScalability.eps>
 File: Fig/chapter4/edcommScalability.eps Graphic file (type eps)
 <Fig/chapter4/edcommScalability.eps>
- [60] [61]
-Overfull \hbox (9.33945pt too wide) in paragraph at lines 379--381
-[]\TU/TimesNewRoman(0)/bx/n/12 Property []4.2.2[]. $\OML/cmm/m/it/12 HLB$ \TU/S
-TSong(0)/m/it/12 会 随 着 粒 度 的 概 要 数 据 粒 度 的 增 加 而 逐 渐 上 升，|  即 $\OML/cmm/m/it/12
- HLB[] \OMS/cmsy/m/n/12 ^^T
- []
-
-
-Overfull \hbox (6.97055pt too wide) in alignment at lines 386--389
+ [63] [64]
+Overfull \hbox (6.97055pt too wide) in alignment at lines 448--451
  [][][] []
  []
 
-[62]
-Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
-;" at 8.0pt
- -> /Library/Fonts/Times New Roman Bold.ttf
-Requested font "Times New Roman/B/OT:script=latn;language=DFLT;mapping=tex-text
-;" at 6.0pt
- -> /Library/Fonts/Times New Roman Bold.ttf
 
-Overfull \hbox (14.34712pt too wide) in paragraph at lines 389--391
+Overfull \hbox (12.99947pt too wide) in paragraph at lines 451--453
 \TU/STSong(0)/m/n/12 接 着，| 我 们 将 $\OML/cmm/m/it/12 SED[]\OT1/cmr/m/n/12 (\OMS/c
 msy/m/n/12 Q\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 C\OT1/cmr/m/n/12 )$ \TU/STSong(
 0)/m/n/12 展 开 得 到 $\OML/cmm/m/it/12 SED[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 Q\OM
@@ -3852,18 +3863,32 @@ L/cmm/m/it/12 ; \OMS/cmsy/m/n/12 C\OT1/cmr/m/n/12 ) = [][] [] \OMS/cmsy/m/n/12
  []
 
 
-Overfull \hbox (14.29512pt too wide) in paragraph at lines 394--403
+Overfull \hbox (12.94746pt too wide) in paragraph at lines 456--465
 []$\TU/STSong(0)/m/n/12 。| 所 以 我 们 的 目 标 变 为 证 明 $[] \OMS/cmsy/m/n/12 ^^A []$
  []
 
-
-Overfull \hbox (9.33945pt too wide) in paragraph at lines 414--416
-[]\TU/TimesNewRoman(0)/bx/n/12 Property []4.2.3[]. $\OML/cmm/m/it/12 HLB$ \TU/S
-TSong(0)/m/it/12 会 随 着 粒 度 的 概 要 数 据 粒 度 的 增 加 而 逐 渐 上 升，|  即 $\OML/cmm/m/it/12
- HLB[] \OMS/cmsy/m/n/12 ^^T
+[65]
+Overfull \hbox (0.91733pt too wide) in paragraph at lines 476--478
+[]\l_fontspec_font 定 理 []\TU/TimesNewRoman(0)/bx/n/12 4.2.3[]. $\OML/cmm/m/it/1
+2 HUB$ \TU/STSong(0)/m/it/12 会 随 着 粒 度 的 概 要 数 据 粒 度 的 增 加 而 逐 渐 下 降，|  即 $\OML
+/cmm/m/it/12 HUB[] \OMS/cmsy/m/n/12 ^^T
  []
 
-[63] [64] [65
+
+Overfull \hbox (6.97055pt too wide) in alignment at lines 479--482
+ [][][] []
+ []
+
+
+Overfull \hbox (12.99947pt too wide) in paragraph at lines 482--484
+\TU/STSong(0)/m/n/12 接 着，| 我 们 将 $\OML/cmm/m/it/12 SED[]\OT1/cmr/m/n/12 (\OMS/c
+msy/m/n/12 Q\OML/cmm/m/it/12 ; \OMS/cmsy/m/n/12 C\OT1/cmr/m/n/12 )$ \TU/STSong(
+0)/m/n/12 展 开 得 到 $\OML/cmm/m/it/12 SED[]\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 Q\OM
+L/cmm/m/it/12 ; \OMS/cmsy/m/n/12 C\OT1/cmr/m/n/12 ) = [][] [] \OMS/cmsy/m/n/12 
+^^@
+ []
+
+[66] [67
 
 ]) (./C5-FLB.tex
 第五章
@@ -3875,56 +3900,68 @@ Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 Invalid UTF-8 byte or sequence at line 11 replaced by U+FFFD.
 File: Fig/chapter5/DTW.eps Graphic file (type eps)
 <Fig/chapter5/DTW.eps>
-[66
+[68
 
 
-] [67]
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 43 replaced by U+FFFD.
+] [69]
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 44 replaced by U+FFFD.
 File: Fig/chapter5/BE.eps Graphic file (type eps)
 <Fig/chapter5/BE.eps>
- [68] [69] [70] [71]
+
+Overfull \hbox (2.73933pt too wide) in paragraph at lines 50--51
+[]$ \TU/STSong(0)/m/n/12 来 表 示 其 中 一 条 片 段 $\OMS/cmsy/m/n/12 f[][]\OML/cmm/m/it
+/12 ; [][]; []  ; [][]\OMS/cmsy/m/n/12 g$ \TU/STSong(0)/m/n/12 的 最 小 包 围 矩 形  |
+（\TU/TimesNewRoman(0)/m/n/12 Minimum Bound-
+ []
+
+[70] [71] [72] [73]
 LaTeX Font Info:    Font shape `TU/STSong(0)/m/sl' in size <12> not available
 (Font)              Font shape `TU/STSong(0)/m/it' tried instead on input line 
-153.
- [72] [73] [74]
+157.
+ [74] [75] [76]
+File: Fig/chapter5/G512.eps Graphic file (type eps)
+<Fig/chapter5/G512.eps>
 File: Fig/chapter5/G1024.eps Graphic file (type eps)
 <Fig/chapter5/G1024.eps>
 File: Fig/chapter5/G2048.eps Graphic file (type eps)
 <Fig/chapter5/G2048.eps>
 File: Fig/chapter5/G4096.eps Graphic file (type eps)
 <Fig/chapter5/G4096.eps>
- [75]
+ [77]
 File: Fig/chapter5/M100.eps Graphic file (type eps)
 <Fig/chapter5/M100.eps>
 File: Fig/chapter5/M1000.eps Graphic file (type eps)
 <Fig/chapter5/M1000.eps>
+File: Fig/chapter5/M5000.eps Graphic file (type eps)
+<Fig/chapter5/M5000.eps>
 File: Fig/chapter5/M10000.eps Graphic file (type eps)
 <Fig/chapter5/M10000.eps>
+ [78]
 File: Fig/chapter5/dCOST.eps Graphic file (type eps)
 <Fig/chapter5/dCOST.eps>
 File: Fig/chapter5/dTIME.eps Graphic file (type eps)
 <Fig/chapter5/dTIME.eps>
- [76] [77]
+ [79] [80]
 File: Fig/chapter5/HPAATimeScalability1.eps Graphic file (type eps)
 <Fig/chapter5/HPAATimeScalability1.eps>
 File: Fig/chapter5/HPAAFinaCommScalability1.eps Graphic file (type eps)
 <Fig/chapter5/HPAAFinaCommScalability1.eps>
 
-Overfull \hbox (3.87074pt too wide) in paragraph at lines 329--330
+Overfull \hbox (3.87074pt too wide) in paragraph at lines 345--346
 []\TU/STSong(0)/m/n/12 本 章 节 介 绍 了 利 用 \TU/TimesNewRoman(0)/m/n/12 FLB \TU/STSo
 ng(0)/m/n/12 框 架 在 嵌 入 动 态 时 间 卷 曲 距 离 下 的 具 体 实 现 算 法 \TU/TimesNewRoman(0)/m/n
 /12 DTW-
  []
 
-[78] [79]
-Overfull \hbox (33.22687pt too wide) in paragraph at lines 396--399
+[81] [82] [83]
+Overfull \hbox (33.22687pt too wide) in paragraph at lines 412--415
 \TU/STSong(0)/m/n/12 所 以，|  我 们 的 问 题 变 为 求 证 $\OML/cmm/m/it/12 s \OMS/cmsy/m/n
 /12 ^^A \OML/cmm/m/it/12 SED[]LB\OT1/cmr/m/n/12 (\OMS/cmsy/m/n/12 f[][]\OML/cmm
 /m/it/12 ; [][]\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; [][]\OT1/cmr/m/n/12 ) \OMS/
@@ -3933,63 +3970,62 @@ f[][]\OML/cmm/m/it/12 ; [][]\OMS/cmsy/m/n/12 g\OML/cmm/m/it/12 ; [][]\OT1/cmr/m
 /n/12 )$
  []
 
-[80]
-Missing character: There is no 不 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no 等 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
-Missing character: There is no 式 in font Times New Roman/OT:script=latn;languag
-e=DFLT;mapping=tex-text;!
- [81] [82] [83] [84
+[84] [85] [86] [87
 
 ]) (./C6-CONCLUSION.tex
 第六章
-[85
+[88
 
 
-] [86] [87] [88
+] [89] [90] [91
 
-]) (./zzg-2018.bbl [89
+]) (./zzg-2018.bbl [92
 
 
 
-] [90]
-Underfull \hbox (badness 2035) in paragraph at lines 195--200
+] [93] [94]
+Underfull \hbox (badness 2035) in paragraph at lines 284--289
 []\TU/TimesNewRoman(0)/m/n/12 CHEN L, NG R T. On The Marriage of Lp-norms and E
 dit Distance[C]
  []
 
-[91] [92]
-Underfull \hbox (badness 1087) in paragraph at lines 422--427
+[95] [96] [97]
+Underfull \hbox (badness 1087) in paragraph at lines 541--546
 []\TU/TimesNewRoman(0)/m/n/12 SCHMID F, RICHTER K, LAUBE P. Semantic Trajectory
  Compression[C]
  []
 
-[93] [94] [95]
-Underfull \hbox (badness 2005) in paragraph at lines 653--659
+[98] [99]
+Underfull \hbox (badness 2005) in paragraph at lines 770--776
 []\TU/TimesNewRoman(0)/m/n/12 LU J, GÜTING R H. Parallel Secondo: Boosting Data
 base Engines with
  []
 
-[96] [97] [98]) [99] [100
+[100] [101] [102]) [103] [104
 
 ] (./D1-APPENDIX.tex
-Overfull \hbox (47.99998pt too wide) in paragraph at lines 5--22
+Overfull \hbox (47.99998pt too wide) in paragraph at lines 5--28
 [][] 
  []
 
-[101
+[105
 
 
 
 
-] [102
+] [106
 
-]) (./D2-ACHNOWLEDGEMENT.tex [103
+] [107
+
+
+] [108] [109] [110] [111
+
+]) (./D2-ACHNOWLEDGEMENT.tex [112
 
 
 
-]) (./D3-MYACHIEVEMENTS.tex [104]
+])
+(./D3-MYACHIEVEMENTS.tex [113]
 Requested font "STSong/OT" at 16.06pt
  -> /Library/Fonts/Songti.ttc
 
@@ -4034,25 +4070,16 @@ Requested font "STSong/I/OT" at 16.06pt
 LaTeX Font Warning: Font shape `TU/STSong(1)/bx/n' undefined
 (Font)              using `TU/STSong(1)/m/n' instead on input line 1.
 
-
-Overfull \hbox (4.13719pt too wide) in paragraph at lines 12--14
-\TU/TimesNewRoman(0)/m/it/12 22th Database Systems for Advanced Applications \T
-U/TimesNewRoman(0)/m/n/12 (DASFAA), pages 199-214, 2017. 
- []
-
-[105
+[114
 
 ])
 No file zzg-2018.ind.
-
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 311.
-[106]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 311.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
+[115]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
  (./zzg-2018.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 311.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 311.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 321.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 321.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -4061,16 +4088,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 311.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
  )
 (\end occurred when \ifx on line 161 was incomplete) 
 Here is how much of TeX's memory you used:
- 42677 strings out of 493010
- 856977 string characters out of 6134663
- 797842 words of memory out of 5000000
- 45987 multiletter control sequences out of 15000+600000
- 575359 words of font info for 296 fonts, out of 8000000 for 9000
+ 42806 strings out of 493010
+ 859866 string characters out of 6134663
+ 813774 words of memory out of 5000000
+ 46106 multiletter control sequences out of 15000+600000
+ 575343 words of font info for 294 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 57i,16n,92p,10414b,974s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 57i,16n,92p,10414b,1034s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on zzg-2018.pdf (125 pages).
+Output written on zzg-2018.pdf (134 pages).

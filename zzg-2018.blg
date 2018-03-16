@@ -6,47 +6,44 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
 Database file #1: reference.bib
-Warning--I didn't find a database entry for "KDDSimilarity"
-Warning--I didn't find a database entry for ""
-You've used 109 entries,
+You've used 126 entries,
             3107 wiz_defined-function locations,
-            1378 strings with 29176 characters,
-and the built_in function-call counts, 217033 in all, are:
-= -- 23984
-> -- 403
-< -- 915
-+ -- 18577
-- -- 1488
-* -- 5447
-:= -- 23545
+            1474 strings with 31476 characters,
+and the built_in function-call counts, 251383 in all, are:
+= -- 27855
+> -- 468
+< -- 1062
++ -- 21757
+- -- 1719
+* -- 6255
+:= -- 27465
 add.period$ -- 0
-call.type$ -- 109
-change.case$ -- 588
+call.type$ -- 126
+change.case$ -- 684
 chr.to.int$ -- 0
-cite$ -- 109
-duplicate$ -- 31627
-empty$ -- 8853
-format.name$ -- 1176
-if$ -- 58016
+cite$ -- 126
+duplicate$ -- 36467
+empty$ -- 10065
+format.name$ -- 1368
+if$ -- 67257
 int.to.chr$ -- 0
-int.to.str$ -- 109
+int.to.str$ -- 126
 missing$ -- 0
-newline$ -- 354
-num.names$ -- 109
-pop$ -- 3352
+newline$ -- 405
+num.names$ -- 126
+pop$ -- 3803
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1831
+skip$ -- 2133
 stack$ -- 0
-substring$ -- 26370
-swap$ -- 5506
+substring$ -- 30514
+swap$ -- 6348
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3008
-width$ -- 112
-write$ -- 1444
-(There were 2 warnings)
+while$ -- 3442
+width$ -- 129
+write$ -- 1682

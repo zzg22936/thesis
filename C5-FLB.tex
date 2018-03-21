@@ -128,7 +128,7 @@ LB\_Keogh({\{\cal U,\cal L\},{\cal C}})=  \sum\nolimits_{i=0}^{n-1}	SED\_LB(\{{\
 \end{eqnarray}	
 
 根据公式\ref{eq:hatUL}, 第$l$层的包围信封计算过程可看作将原来的DTWBE均匀切分成$2^l$块，然后对每个信封块计算仅使用两个$d$维点来构成新的包围信封。根据对公式 \ref{eq:hatUL}的观察，我们得到两种结论：（i）第$l$层的包围信封$\{\hat{{\cal U}}_{l}, \hat{{\cal L}}_{l}\}$ 数据量是第$l-1$层的两倍；（ii）第$l-1$层的数据被第$l$层包含。因此，在由粗到细发送包围信封这一概要数据时，除第$0$层外，其他层只需要发送一半的信息量（这一半数据的每个值需要用0和1标注其位置是在左边还是右边，但位置信息消耗的开销较小可忽略）。
-那么假定远程结点已获取到查询轨迹$\cal Q$的第$l$层包围信封$\{\hat{{\cal U}}_l,\hat{{\cal L}}_l\}$，我们可通过如下公式来计算给定的候选与$\cal Q$DTW距离的下界。
+那么假定远程结点已获取到查询轨迹$\cal Q$的第$l$层包围信封$\{\hat{{\cal U}}_l,\hat{{\cal L}}_l\}$，我们可通过如下公式来计算给定候选与$\cal Q$的DTW距离下界。
 \begin{theorem}\label{theo:HPAA}
 	给定轨迹$\cal Q$的第$l$层包围信封$\{\hat{{\cal U}}_{l}, \hat{{\cal L}}_{l}\}$和候选轨迹$\cal C$,我们得到如下结论：
 	 $LB\_HPAA({  \{\hat{{\cal U}_{l}}, \hat{{\cal L}_{l}}\},\overline{{\cal C}}_{l}}) \le DTW(\cal Q, \cal C)$。其中$LB\_HPAA$的计算公式如下：
@@ -196,8 +196,8 @@ LB\_Keogh({\{\cal U,\cal L\},{\cal C}})=  \sum\nolimits_{i=0}^{n-1}	SED\_LB(\{{\
 	\textbf{updateBounds}($S_{r}$, $m$) \qquad  $/*m=\{ \hat{\vu}_{l,i}, \hat{\vl}_{l,i} \}*/$
 	\begin{algorithmic}[1]
 		\IF{$l==0$}
-			\STATE 使用索引树进行剪枝。
-		\ENDIF
+			\STATE 使用索引树进行剪枝，将不满足要求的轨迹从$S_{r}$中移除。
+		\ELSE
 		\FORALL{ $\cal C$ in $TS_{r}$}
 			\STATE $factor =2^{L-l}$；
 			\STATE $c.lb=0$;
@@ -210,6 +210,7 @@ LB\_Keogh({\{\cal U,\cal L\},{\cal C}})=  \sum\nolimits_{i=0}^{n-1}	SED\_LB(\{{\
 			\ENDFOR 
 			\STATE 将$\cal C$的下界更新为$c.lb$;
 		\ENDFOR
+	\ENDIF
 	\end{algorithmic}
 \end{algorithm}
 我们首先介绍如何实现那些运行在协调者节点的上的函数。在\textsf{coordinatorInit}函数中，我们首先对待查询轨迹计算出对应的DTWBE，接着基于DTWBE，我们构造多粒度的包围信封（即概要数据）。

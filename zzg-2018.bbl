@@ -38,6 +38,14 @@
   York,USA}\thinspace{}\textnormal{: }\bibpublisher{Springer}\@,
   \bibyear{2011}\thinspace{}\textnormal{: }\bibpages{16}\@.
 
+\bibitem{Xiao}
+\bibauthor{XIANGYE X\@, YU Z\@, QIONG L, et~al}\@. \bibtitle{Finding Similar
+  Users Using Category-based Location History}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 18th International Conference
+  on Advances in Geographic Information Systems {(SIGSPATIAL)}}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{442\thinspace{}\textnormal{--}\thinspace{}445}\@.
+
 \bibitem{Gonz2008Understanding}
 \bibauthor{GONZ{\'{A}}LEZ M~C\@, HIDALGO C~A\@, BARABáSI A~L}\@.
   \bibtitle{Understanding individual human mobility patterns.}\bibmark{[J]}\@.
@@ -566,14 +574,6 @@
   \bibyear{2015}\thinspace{}\textnormal{:
   }\bibpages{963\thinspace{}\textnormal{--}\thinspace{}974}\@.
 
-\bibitem{Xiao}
-\bibauthor{XIANGYE X\@, YU Z\@, QIONG L, et~al}\@. \bibtitle{Finding Similar
-  Users Using Category-based Location History}\bibmark{[C]}
-  //\thinspace{}\bibbooktitle{Proceedings of the 18th International Conference
-  on Advances in Geographic Information Systems {(SIGSPATIAL)}}\@.
-  \bibyear{2010}\thinspace{}\textnormal{:
-  }\bibpages{442\thinspace{}\textnormal{--}\thinspace{}445}\@.
-
 \bibitem{Kaiser}
 \bibauthor{ZHENG K\@, SHANG S\@, YUAN N~J, et~al}\@. \bibtitle{Towards
   efficient search for activity trajectories}\bibmark{[C]}
@@ -665,8 +665,8 @@
   }\bibpages{159\thinspace{}\textnormal{--}\thinspace{}193}\@.
 
 \bibitem{GutingBX10}
-\bibauthor{G{\"{U}}TING R~H\@, BEHR T\@, XU J}\@. \bibtitle{Efficient k-nearest
-  neighbor search on moving object trajectories}\bibmark{[J]}\@.
+\bibauthor{G{\"{U}}TING R~H\@, BEHR T\@, JIANQIU}\@. \bibtitle{Efficient
+  k-nearest neighbor search on moving object trajectories}\bibmark{[J]}\@.
   \bibjournal{{VLDB} Journal}\@, \bibyear{2010}\@,
   \bibvolume{19}\bibnumber{(5)}\thinspace{}\textnormal{:
   }\bibpages{687\thinspace{}\textnormal{--}\thinspace{}714}\@.
@@ -744,19 +744,19 @@
   \bibyear{2009}\thinspace{}\textnormal{:
   }\bibpages{874\thinspace{}\textnormal{--}\thinspace{}885}\@.
 
-\bibitem{Ma2013KSQ}
-\bibauthor{CHUNYANG M\@, HUA L\@, LIDAN S, et~al}\@. \bibtitle{KSQ: Top-$k$
-  Similarity Query on Uncertain Trajectories}\bibmark{[J]}\@.
-  \bibjournal{{IEEE} Transaction on Knowledge and Data Engineering (TKDE)}\@,
-  \bibyear{2013}\@, \bibvolume{25}\bibnumber{(9)}\thinspace{}\textnormal{:
-  }\bibpages{2049\thinspace{}\textnormal{--}\thinspace{}2062}\@.
-
 \bibitem{Trajcevski2011}
 \bibauthor{GOCE T\@, ROBERTO T\@, F C~I, et~al}\@. \bibtitle{Ranking continuous
   nearest neighbors for uncertain trajectories}\bibmark{[J]}\@.
   \bibjournal{VLDB Journal}\@, \bibyear{2011}\@,
   \bibvolume{20}\bibnumber{(5)}\thinspace{}\textnormal{:
   }\bibpages{767\thinspace{}\textnormal{--}\thinspace{}791}\@.
+
+\bibitem{Ma2013KSQ}
+\bibauthor{CHUNYANG M\@, HUA L\@, LIDAN S, et~al}\@. \bibtitle{KSQ: Top-$k$
+  Similarity Query on Uncertain Trajectories}\bibmark{[J]}\@.
+  \bibjournal{{IEEE} Transaction on Knowledge and Data Engineering (TKDE)}\@,
+  \bibyear{2013}\@, \bibvolume{25}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{2049\thinspace{}\textnormal{--}\thinspace{}2062}\@.
 
 \bibitem{LiLSF11}
 \bibauthor{LI G\@, LI Y\@, SHU L, et~al}\@. \bibtitle{CkNN Query Processing

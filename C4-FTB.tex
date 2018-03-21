@@ -96,8 +96,8 @@ SED_{i}({\cal Q}, {\cal C}) & = & \sum\nolimits_{j=0}^{2^{i}-1}SED(\vd_{i,j}^{\c
 上一节介绍了，利用完整的哈尔小波系数，即全部的概要数据，能够用来计算原始的轨迹间欧式距离。但全部概要数据的数据量于原始轨迹数据量相同，不能达到降低通信开销的目的。为此
 本节将介绍如何利用部分概要来计算轨迹的上、下界。首先根据引理\ref{theory:dis},我们有:
 \begin{eqnarray}\label{eq:match}
-SED({\cal Q},{\cal C}) &=& \sum\nolimits_{i=0}^{L-1}SED_{i}({\cal Q},{\cal C}) \nonumber\\ 
-           &=&\sum\nolimits_{i=0}^{l}SED_{i}({\cal Q},{\cal C})+\sum\nolimits_{i=l+1}^{L-1}SED_{i}({\cal Q},{\cal C})
+SED({\cal Q},{\cal C}) &=&S_{0}({\cal Q},{\cal C}) +  \sum\nolimits_{i=0}^{L-1}SED_{i}({\cal Q},{\cal C}) \nonumber\\ 
+           &=&S_{0}({\cal Q},{\cal C}) + \sum\nolimits_{i=0}^{l}SED_{i}({\cal Q},{\cal C})+\sum\nolimits_{i=l+1}^{L-1}SED_{i}({\cal Q},{\cal C})
 \end{eqnarray}
 
 假设远程结点由粗到细已经获取了查询轨迹$\cal Q$的前$l+1$层概要数据，我们的目标就是根据这些已有的数据计算出$\cal Q$与任一候选$\cal C$的欧式距离上、下界。公式 \ref{eq:match}有半部分分为两部分，前半部分可以根据已有概要数据计算出来，后半部分无法直接计算。为此，我们将后半部分继续展开，得到如下：

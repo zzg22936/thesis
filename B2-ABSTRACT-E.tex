@@ -5,44 +5,58 @@
 
 Recently, big trajectory data  is generated in an explosive way with the popularity of smartphones and other location-acquisition devices.
  These devices, monitoring the motion of vehicles, people, animals and goods, are producing massive distributed trajectories rapidly. 
- These data not only reflect the spatio-temporal mobility of individuals and groups, but may also contain the behavior information of moving objects. They are invaluable for applications such as  route planning, urban planning and logistics scheduling .
+ These data not only reflect the spatio-temporal mobility of individuals and groups, but  also contain the behavior information of moving objects. They are invaluable for applications such as  route planning, urban planning and logistics scheduling.
  To make full use of such data, tremendous efforts have been made to support effective trajectory data management analysis, including trajectory indexing, trajectory clustering, trajectory classification,  anomaly detection and  behavior prediction.
  
- In this paper, we focus on the $k$ nearest neighbor query over the distributed trajectory data, which finds $k$ trajectories that are most similar to the given reference trajectory. This kind of query is a basic function of many  LBS applications and  also plays an important role in  trajectory pattern mining tasks.
-Although this query can be solved by sending the query trajectory to all the remote sites, in which the pairwise distances are computed precisely.
-However, the overall communication cost, $O(n\cdot M)$, is huge when $n$ or $m$ is huge, where $n$ is the size of  query trajectory and $M$ is the number of remote sites. Besides, the procedure of pairwise distances computation for all trajectories is also time consuming.
-So, the key challenge in this query is  how to reduce the communication cost due to the limited network bandwidth resource and meanwhile  give the query result quickly.
-Thus, we devise some communication-saving ways to estimate pairwise distance by using sketch data,
+ In this paper, we firstly research the problem of how to manage the big trajectory efficiently on a computer cluster. Existing trajectory management systems fail to provide scalable and low latency query services over such data due to the high I/O cost. In view of that, we present TrajSpark, a distributed in-memory system to consistently offer efficient management of trajectory data. TrajSpark introduces a new abstraction called IndexTRDD to manage trajectories as a set of segments, and exploits a global and local indexing mechanism to accelerate trajectory queries. Furthermore, to alleviate the essential partitioning overhead as the increase of data volume, it adopts the time-decay model to monitor the change of data distribution and updates the data-partition structure adaptively.
+ This model avoids repartitioning existing data when new batch of data arrives.
+ 
+ Next, we focus on the $k$ nearest neighbor query over the distributed trajectory data.
+Although this query can be solved by directly sending the query reference to all remote sites, in which the pairwise distances are computed precisely.
+However, the overall communication  and computation cost is huge.
+Besides, there are a number of  trajectory distance  measures and existing work only focus on  one of them, thus these work are short of generality. 
+To address above challenges, 
+%we propose the idea of computing distance bounds for candidates by using sketch data of the reference and then pruning candidates with such bounds. As size of the sketch data is  far smaller than the  original reference, communication is saved.
+ we devise some communication-saving ways to estimate pairwise distance by using sketch data,
  which allow filtering some trajectories in advance without precise computation.
- In addition, there exists quiet a few distance measures for trajectroy data and most of existing work focus on one of them. 
- So, it is necessary to support general processing methods for the query.
-In order to overcome the above challenges in this query, we devise two general query processing frameworks, into which concrete distance measures can be plugged. 
-The former one uses both the upper and lower bound of distance metric, while the latter one only uses the lower bound. Then, we introduce detailed implementations of  these frameworks by embedding  representative distance measures. The research questions and technical contributions in this thesis can be summarized as follows:
-
+ Besides, we devise two general frameworks to deal with different distance measures. The first one prunes candidates by using  both  distance lower and lower bounds, while the second one only uses  distance lower bound. So, the former one suites for cases where both distance lower and upper bounds can be computed by using sketch data, and the latter one suites for  cases that only  lower bound can be  computed.
+ Finally, we embed Euclidean distance into the first framework and embed Dynamic Time Warping distance into the second one, to evaluate the practicality of these frameworks.
+The research questions and technical contributions in this thesis can be summarized as follows:
 
 \begin{itemize}
-\item[1.] \textbf{Two basic processing frameworks, FTB (Framework with Two Bounds) and FLB(Framework with Lower Bound), are proposed to solve the $knn$ query over distributed trajectories.} In both of the frameworks, we  send  more and more fine-grained sketch data of the reference trajectories to get more and more tight distance bounds for each candidate. Then, we use these bounds to prune candidates. 
-As the data size of sketch data is much smaller than the original trajectory, a great amount of communication are saved in them. Besides, the computation cost for distance bounds is also smaller than the exact distance value. So, these framework is also very efficient in running time. 
-The main difference between these two frameworks is that: FTB framework  requires both the upper and lower bound of each candidate, while FLB only uses the lower bound. Any distance metric can be plugged into  these two frameworks provided that proper sketch data is designed and corresponding distance bounds can be inferred.
-% Then, we give the theorem that we can compute a distance range for each candidate trajectory when  sketch data is given, and get a  tighter  range when finer-grained sketch data is used.
+\item [1.]\textbf{TrajSpark system is proposed to support low-latency query over big trajectory data.} Existing trajectory systems are built on top of disk-based systems and suffer the problem of I/O overhead. So, we design the TrajSpark by utilizing distributed memory.
+TrajSpark builds  IndexTRDD, an RDD of trajectory segments, to support efficient data storage and management by incorporating a global and local indexing strategy. 
+Besides, TrajSpark monitors the change of data distribution by importing a time decay model which alleviates the repartitioning overhead occurred in existing distributed systems and gets a good partition result at the same time.  Extensive experiment results demonstrate the superiority of TrajSpark over other Spark-based systems.
 
-%\item[2.] \textbf{ ED-FTB algorithm is proposed to process the case when Euclidean distance is adopted as the distance metric.} 
-\item[2.] \textbf{ ED-FTB algorithm is proposed to process  Euclidean distance based query by implementing the FTB framework.} 
-Euclidean distance is one of the most popular distance metrics for time series data due to its simplicity. This thesis designs ED-FTB algorithm to embed Euclidean distance into our query.
-We first exploit the Haar wavelet to transform the reference trajectory and adopts the Haar coefficients as the sketch data. Then, we design both upper and lower distance  bounds for Euclidean distance by using only partial of the coefficients, and we ensure that these bounds are tightened when more coefficients are used.
-Consequently, we combine Euclidean distance with FTB framework and design the  ED-FTB algorithm to process the query. Besides, early-abandoning policy is adopted to improve the query efficiency. Theoretical analysis and extensive experimental results  show that ED-FTB outperforms the state-of-the-art algorithm.
 
-%Probabilistic Multi-Topic Matrix Factorization for \textit{rating prediction}:   there are two main weak points in previous studies. One is the non-interpretability of the models built on the local information in explicit rating data. Another is the inconsistency of the objective functions. To overcome these problems, this thesis presents a Probabilistic Multi-Topic Matrix Factorization model. This model combines topic model with probabilistic matrix factorization model. Topic model is used to capture local information of data and matrix factorization models the local inner property of users and items. Furthermore, this thesis extends a Bayesian formulation of probabilistic multi-topic matrix factorization model.  It requires fewer efforts in parameter selection and can achieve higher recommendation accuracy. Extensive experiments demonstrate the effectiveness of the proposed model compared with several competitive baselines and the interpretability to local modelling information.  
-% 设计了基于FLB框架的DTW-FLB算法用以处理基于DTW距离的查询
-%\item[3.] \textbf{ 	DTW-FLB algorithm is proposed to process the query when DTW (Dynamic Time Warping) distance is adopted as the distance metric.}
-\item[3.] \textbf{ 	DTW-FLB algorithm is proposed to process DTW  distance based query by implementing the FLB framework.} 
-DTW distance is another popular metric as it allows two time series vary in speed. For instance, similarities  in walking could be detected using DTW, even if one person was walking faster than the other. This thesis designs DTW-FLB algorithm to embed DTW distance into our query.
-We compute  bounding envelopes of different granularities for the reference firstly. Then, we design a lower bound for DTW distance by using bounding envelope. We give the proof that  finer-grained bounding envelopes lead to tighter lower bounds. Thus, we combine DTW distance with FLB framework and devise the DTW-FLB algorithm to process the query. Early-abandoning and cascade-pruning policies are  adopted to improve the query efficiency. Extensive experimental results  show that DTW-FLB  algorithm is efficient and scalable.
+\item[2.] \textbf{Pruning strategy FTB  is proposed by using  distance lower and upper bounds to  solve the $knn$ query, and  algorithm ED-FTB is designed to embed Euclidean distance onto FTB.}
+Trajectory compression is a practical way to reduce the communication cost. Using distance  bound(s), which are computational cheaper than original distance, to prune candidates is an efficient way to improve query efficiency. 
+In this paper, we combine these two methods and design the pruning strategy FTB by computing lower and upper bound from sketch data which is computed from proper compression method. 
+To evaluate the efficiency  of FTB, we implement  Euclidean distance based $knn$ query  on top of FTB by proposing algorithm ED-FTB.
+ED-FTB  adopts Haar  wavelet coefficients as multi-resolution sketch data.  Both new lower and upper bounds are designed for ED-FTB, and we prove that these bounds get tighter when finer-grained sketch data is used.   Theoretical analysis and extensive experimental results  show that ED-FTB outperforms the state-of-the-art algorithm.
+
+\item [3.] \textbf{Pruning strategy FLB is proposed  by  using distance lower bound  to  solve the $knn$ query, and  algorithm DTW-FTB is designed to embed DTW distance onto FLB.} For the case when upper bound cannot be computed from sketch data, we propose the pruning strategy FLB by using only distance lower bound. FLB computes a global pruning threshold to approximate the $k$-th smallest distance.
+To evaluate the efficiency  of FLB, we implement  DTW distance based $knn$ query  on top of FLB by proposing algorithm DTW-FLB. In DTW-FLB, we adopt bounding envelopes as multi-resolution sketch data and design a lower bound for DTW distance by using such data. The lower bound gets tighter when finer-grained bounding envelope is used.
+ Early-abandoning pruning policy is  adopted in DTW-FLB to improve the query efficiency.
+ Extensive experimental results  show that DTW-FLB  algorithm is efficient and scalable.
+%\item[2.] \textbf{Two basic processing frameworks, FTB (Framework with Two Bounds) and FLB(Framework with Lower Bound), are proposed to solve the $knn$ query over distributed trajectories.} In both of the frameworks, we  send  more and more fine-grained sketch data of the reference trajectories to get more and more tight distance bounds for each candidate. Then, we use these bounds to prune candidates. 
+%As the data size of sketch data is much smaller than the original trajectory, a great amount of communication are saved in them. Besides, the computation cost for distance bounds is also smaller than the exact distance value. So, these framework is also very efficient in running time. 
+%The main difference between these two frameworks is that: FTB framework  requires both the upper and lower bound of each candidate, while FLB only uses the lower bound. Any distance metric can be plugged into  these two frameworks provided that proper sketch data is designed and corresponding distance bounds can be inferred.
+%
+%
+%\item[2.] \textbf{ ED-FTB algorithm is proposed to process  Euclidean distance based query by implementing the FTB framework.} 
+%Euclidean distance is one of the most popular distance metrics for time series data due to its simplicity. This thesis designs ED-FTB algorithm to embed Euclidean distance into our query.
+%We first exploit the Haar wavelet to transform the reference trajectory and adopts the Haar coefficients as the sketch data. Then, we design both upper and lower distance  bounds for Euclidean distance by using only partial of the coefficients, and we ensure that these bounds are tightened when more coefficients are used.
+%Consequently, we combine Euclidean distance with FTB framework and design the  ED-FTB algorithm to process the query. Besides, early-abandoning policy is adopted to improve the query efficiency. Theoretical analysis and extensive experimental results  show that ED-FTB outperforms the state-of-the-art algorithm.
+%
+%\item[3.] \textbf{ 	DTW-FLB algorithm is proposed to process DTW  distance based query by implementing the FLB framework.} 
+%DTW distance is another popular metric as it allows two time series vary in speed. For instance, similarities  in walking could be detected using DTW, even if one person was walking faster than the other. This thesis designs DTW-FLB algorithm to embed DTW distance into our query.
+%We compute  bounding envelopes of different granularities for the reference firstly. Then, we design a lower bound for DTW distance by using bounding envelope. We give the proof that  finer-grained bounding envelopes lead to tighter lower bounds. Thus, we combine DTW distance with FLB framework and devise the DTW-FLB algorithm to process the query. Early-abandoning and cascade-pruning policies are  adopted to improve the query efficiency. Extensive experimental results  show that DTW-FLB  algorithm is efficient and scalable.
 
 \end{itemize}
 
 \hspace{-0.5cm}
-{\sihao{\textbf{Keywords:}}} \textit{Big Trajectory Data;\,distributed knn query;\, Communication Cost;\, Time Efficiency;\, Distance Bounds.
+{\sihao{\textbf{Keywords:}}} \textit{Trajectory;\, Data Management;\, $knn$ query;\, Distance Bounds;\, Communication Cost;\, Time Efficiency.
 }
 %额外空白页
 

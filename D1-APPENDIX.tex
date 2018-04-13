@@ -1,156 +1,157 @@
 \newpage
-\chapter*{附录一\quad 主要缩写符号对照表}
+\chapter*{附录\quad 主要缩写符号对照表}
 \vskip 5mm
 
 \begin{tabular}{p{0.15\columnwidth}p{0.85\columnwidth}}
-	ED  &  欧式距离（Euclidean Distance）  \\
-	DTW  & 动态时间卷曲（Dynamic Time Warping）  \\
+	ED  &  欧氏距离（Euclidean Distance）  \\
+	DTW  & 动态时间弯曲（Dynamic Time Warping）  \\
 	LCSS  & 最长公共子串（Longest Common Subsequence）  \\
 	EDR  & 实值序列上的编辑距离（Edit Distance on Real sequence）  \\
 	ERP  & 带有惩罚项的编辑距离（Edit Distance with  Real Penalty）  \\
-	HD & 霍斯托夫距离（Hausdorff Distance）  \\
+	HD & 豪斯多夫距离（Hausdorff Distance）  \\
 	FD  & 弗雷歇距离（Fréchet Distance）  \\
-	OWD  & 一路距离 (One Way Distancen)  \\
+	OWD  & 一路距离 (One Way Distance)  \\
 	DEwP  & 带投影的编辑距离 (Edit Distance with   Projections)  \\
 	P2P  & 点对点 (Peer-To-Peer) \\
 	DP  & 道格拉斯-普克 (Douglas-Peuker)  \\
 	SVD & 奇异值分解 (Singular Value Decomposition)  \\
 	DFT  & 离散傅里叶变换 (Discrete Fourier Transform) \\
-	HWT & 哈尔小波变换 (Haaar Wavelet Transform)  \\
+	HWT & 哈尔小波变换 (Haar Wavelet Transform)  \\
 	PAA & 分段聚合近似（Piecewise Aggregate Approximation）  \\
 	MDL & 最小描述长度（Minimal Description Length）\\
 	APCA & 自适应分段常量近似（Adaptive Piecewise Constant Approximation）\\
-	SED & 欧式距离的平方 (Squared Euclidean Distance)\\
+	SED & 欧氏距离的平方 (Squared Euclidean Distance)\\
 	BE & 包围信封 (Bounding Envelope)\\
-	MBR & 最小包围矩形 (Minimum Bounding Rectengle)\\
+	MBR & 最小包围矩形 (Minimum Bounding Rectangle)\\
 	BF& 界特征 (Bound Feature)\\
+	LBF& 下界特征 (Lower Bound Feature)\\
 \end{tabular}
 
 \clearpage
 \phantom{s}
 \clearpage
 
-\chapter*{附录二\quad 基于LCSS距离的查询实现}
-\vskip 5mm
-最长公共子串距离的计算公式如公式\ref{eq:LCSS}所示。
-\begin{equation}\label{eq:LCSS}
-	LCSS({\cal Q},{\cal C})= func(n, m)
-\end{equation}
-\begin{equation*}	
-func(i,j)=
-\begin{cases}
-0  & if \quad i=0 \lor j=0,\\ 
-1 + func(i-1, j-1) & if \quad d(q_{i}, c_{j}) \le \delta, \\
-max 
-\begin{cases}
-func(i-1,j),\\
-func(i,j-1),
-\end{cases} & otherwise
-\end{cases}
-\end{equation*}
-
-我们对$\cal Q$使用章节\ref{sec-c5-BE}所用包围盒技术进行多粒度概要数据计算，并以所得到的多粒度包围信封作为概要数据。此时，记第$l$层包围盒为${\cal Q}_{l}= \{qL_{l},qU_{l}\}$，其第$i$个元素$\vq_{l,i}=\{qU_{l,i}, qL_{l,i} \} $。此时针对分别来自$\cal Q$和$\cal C$的两个点$\vq_{i}$ 和 $\vc_{j}$，假设我们不知道$\vq_{i}$的真实值，但可以通过包围盒知道改点属于$\vq_{l,i}$所表示的范围内。那么我们可以计算出$\vq_{i}$ 和 $\vc_{j}$距离的下界$d_{lb}$和上界$d_{ub}$。
-\begin{lemma}\label{lemma:SEDLUB}
-	$d_{lb}(\bq_{l,i},\bc_{j})\le d(\bq_{i},\bc_{j})  \le d_{ub}(\bq_{l,i},\bc_{j})$, 其中 $\bq_{l,i}=\langle qL_{l,i}, qU_{l,i} \rangle$, $d_{lb}(\bq_{l,i},\bc_{j})$ 和 $d_{ub}(\bq_{l,i},\bc_{j})$ 的计算方式如下:
-\allowdisplaybreaks[4]
-\end{lemma}
-\allowdisplaybreaks
- 	\begin{equation}
- d_{lb}(\vq_{l,i},\vc_{j})=
- \sum_{k=1}^{d} \begin{cases}
- ({\vc}_{j}^{k}- {qU}_{l,i}^{k})^2 & \emph{if} \,\,\,  {\vc}_{j}^{k} > {qU}_{l,i}^{k},\\
- \quad 0 &   \emph{if} \,\,\,   {qL}_{l,i}^{k} \le \vc_{j}^{k} \le {qU}_{l,i}^{k},\\
- ({qL}_{l,i}^{k} -{\vc_{j}}^{k})^2 & \emph{if} \,\,\,    {\vc}_{j}^{k} <{qL}_{l,i}^{k}.\\
- \end{cases}
- \end{equation}
- \allowdisplaybreaks[4]
- \allowdisplaybreaks
- \begin{equation}
- d_{ub}(\vq_{l,i},\vc_{j})=
- \sum_{k=1}^{d} \begin{cases}
- ({\vc}_{j}^{k}- {qL}_{l,i}^{k})^2 & \emph{if} \,\,\,  {\vc}_{j}^{k} > {qU}_{l,i}^{k},\\
- ({qU}_{l,i}^{k}- {qL}_{l,i}^{k})^2 &   \emph{if} \,\,\,   {qL}_{l,i}^{k} \le \vc_{j}^{k} \le {qU}_{l,i}^{k},\\
- ({qU}_{l,i}^{k} -{\vc_{j}}^{k})^2 & \emph{if} \,\,\,    {\vc}_{j}^{k} < {qL}_{l,i}^{k}.\\
- \end{cases}
- \end{equation}
- 上述引理可根据欧式距离的定义直观看出。接下来，我们将展示$d_{lb}$和上界$d_{ub}$会随着细粒度的概要数据的使用，而逐渐逼近真实值。
- \begin{lemma} \label{lemma:tighterPointBounds}
- 	$d_{ub}(\bq_{l+1,i}, \bc_{j}) \le d_{ub}(\bq_{l,i}, \bc_{j})$ ， $d_{lb}(\bq_{l+1,i}, \bc_{j}) \ge d_{lb}(\bq_{l,i}, \bc_{j})$.
- \end{lemma}
- \begin{proof}
- 	既然 $qL_{l,i}^{k} \le qL_{l+1,i}^{k}  \le \vq_{i}^{k} \le qU_{l+1,i}^{k} \le qU_{l,i}^{k}$,  
- 	$k \in{[1,d]} $,  那么我们得到如下分析:
- 	\begin{equation}	
- 	\begin{cases}
- 	(\vc_{j}^{k} - qL_{l+1,i}^{k} )^{2} \le (\vc_{j}^{k} - qL_{l,i}^{k})^{2} & \emph{if} \,\,\,   \vc_{j}^{k} >qU_{l,i}^{k}\\ 
- 	(\vc_{j}^{k} - qL_{l+1,i}^{k} )^{2} \le   (qU_{l,i}^{k} - qL_{l,i}^{k})^{2}                  & \emph{if} \,\,\,   qU_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l,i}^{k} ,\\ 
- 	\quad 0 = 0                    & \emph{if} \,\,\,   qL_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l+1,i}^{k} ,\\ 
- 	(qU_{l+1,i}^{k}- \vc_{j}^{k})^{2} \le (qU_{l,i}^{k}- qL_{l,i}^{k})^{2}                     &\emph{if} \,\,\,  qL_{l,k}^{j} \le \vc_{j}^{k} \le qL_{l+1,i}^{k} ,\\ 
- 	(qU_{l+1,i}^{k}- \vc_{j}^{k})^{2} \le 	( qU_{l,i}^{k}- \vc_{j}^{k})^{2}   & \emph{otherwise}
- 	\end{cases}
- 	\end{equation}
- 	将所有维度数据相加 $d_{ub}(\vq_{l+1,i}, \vc_{j}) \le d_{ub}(\vq_{l,i}, \vc_{j})$。对于下界，同理可以进行分析
- 	%	 we can proof  $d_{lb}(\bq_{l+1}^{i}, \bc_{j}) \ge d_{lb}(\bq_{l}^{i}, \bc_{j})$.
- 	\begin{equation}	
- 	\begin{cases}
- 	(\vc_{j}^{k} - qU_{l+1,i}^{k} )^{2} \ge (\vc_{j}^{k} - qU_{l,i}^{k})^{2} & \emph{if} \,\,\,    \vc_{j}^{k} >qU_{l,i}^{k}\\ 
- 	(\vc_{j}^{k} - qU_{l+1,i}^{k} )^{2} \ge 0  & \emph{if} \,\,\,   qU_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l,i}^{k} ,\\ 
- 	\quad	0 = 0                    & \emph{if} \,\,\,   qL_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l+1,i}^{k} ,\\ 
- 	( qL_{l+1,i}^{k}- \vc_{j}^{k})^{2} \ge 0                    &\emph{if} \,\,\,   qL_{l,k}^{j} \le \vc_{j}^{k} \le qL_{l+1,i}^{k} ,\\ 
- 	( qL_{l+1,i}^{k}- \vc_{j}^{k})^{2} \ge 	( qL_{l,i}^{k}- \vc_{j}^{k})^{2}   & \emph{otherwise}
- 	\end{cases}
- 	\end{equation}
- 	将所有维度数据累加，我们得到  $d_{lb}(\vq_{l+1,i}, \vc_{j}) \ge d_{lb}(\vq_{l,i}, \vc_{j})$ 成立。 
- \end{proof}
-
-最后，我们介绍针对LCSS距离设计基于多粒度包围信封的上、下界。其中上界记为 $UB\_LCSS({\cal Q}_{l}, {\cal C})$，其计算方法如公式\ref{eq:ubLCSS}所示。下界记为$LB\_LCSS({\cal Q}_{l}, {\cal C})$，其计算方式为将$UB\_LCSS$定义中的$ d_{lb}$用$ d_{ub}$替代。
-\begin{equation}\label{eq:ubLCSS}
-UB\_LCSS({\cal Q}_{l},{\cal C})= func'(n, m)
-\end{equation}
-\begin{equation*}	
-func'(i,j)=
-\begin{cases}
-0  & if \quad i=0 \lor j=0,\\ 
-1 + func'(i-1, j-1) & if  d_{lb}(\vq_{l,i}, \vc_{j}) \le \delta, \\
-max 
-\begin{cases}
-func'(i-1,j)\\
-func'(i,j-1)
-\end{cases} & otherwise
-\end{cases}
-\end{equation*}
-	\begin{theorem}\label{theory:LCSSupper}$UB\_LCSS({\cal Q}_{l}, {\cal C}) \ge 	LCSS({\cal Q},{\cal C})$，即
-	$UB\_LCSS({\cal Q}_{l}, {\cal C})$	是 $LCSS({\cal Q},{\cal C})$的上界。
-\end{theorem}  
-\begin{proof}\label{proof:LCSSUPPER}
-	假定$Z=\{ z_{1}, z_{2}, \cdots, z_{k}\}$是$LCSS({\cal Q},{\cal C})$ 计算所求得的最长公共子串。那么对于任意属于$Z$的元素$z_{d}$，一定存在着一对元素$(\vq_{i}, \vc_{j})$ 
-	使得$d(q_{i}, c_{j}) \le \delta$ 。根据$d_{lb}$定义，我们有 $d_{lb}(q_{l,i}, c_{j}) \le d(q_{i}, c_{j}) \le \delta$。 所以 $Z$ 也是$UB\_LCSS({\cal Q}_{l},{\cal C})$ 的一个公共子串，且它的长度小于或等于$UB\_LCSS({\cal Q}_{l}, {\cal C})$所蕴含的最长公共子串。所以，$UB\_LCSS({\cal Q}_{l}, {\cal C})\ge LCSS({\cal Q},{\cal C})$。
-\end{proof}
-
-	\begin{theorem}\label{theory:LCSSlower}$LB\_LCSS({\cal Q}_{l}, {\cal C}) \le 	LCSS({\cal Q},{\cal C})$，即
-	$LB\_LCSS({\cal Q}_{l}, {\cal C})$	是 $LCSS({\cal Q},{\cal C})$的下界。
-\end{theorem}  
-\begin{proof}
-证明同定理\ref{theory:LCSSupper}。
-\end{proof}
-进一步地，我们将展示所提上、下界会随着包围信封粒度的增加而逐渐变紧。
-\begin{theorem}\label{theory:LCSSupperDecrease}
-	$UB\_LCSS({\cal Q}_{l+1}, {\cal C}) \le UB\_LCSS({\cal Q}_{l}, {\cal C}) $。
-\end{theorem}  
-
-\begin{proof}\label{proof:LCSSDecrease}
-假设 $Z=\{ z_{1}, z_{2}, \cdots, z_{k}\}$ 是$UB\_LCSS ({\cal Q}_{l+1}, {\cal C})$所蕴含的最长公共子串。
-那么对于$Z$中任意一点$z_{d}$ 必然存在着一对元素 $(\vq_{i}, \vc_{j})$ 满足 $d_{lb}(\vq_{l+1,i}, \vc_{j}) \le \delta$。根据$d_{lb}$定义，我们有 $d_{lb}(q_{l,i}, c_{j}) \le d_{lb}(q_{l+1,i}, c_{j})$。因此，$Z$ 也是 $UB\_LCSS({\cal Q}_{l}, {\cal C})$的一条公共子串, 且$Z$的长度小于其最长公共子串的长度。因此我们有
-$UB\_LCSS({\cal Q}_{l+1}, {\cal C})\le UB\_LCSS({\cal Q}_{l}, {\cal C})$。 
-\end{proof}
-\begin{theorem}\label{theory:LCSSlowerDecrease}
-$LB\_LCSS({\cal Q}_{l+1}, {\cal C}) \ge LB\_LCSS({\cal Q}_{l}, {\cal C}) $。
-\end{theorem}  
-\begin{proof}
-证明同定理\ref{theory:LCSSupperDecrease}。
-\end{proof}
-
-至此，我们已经为LCSS距离设计了基于包围信封的概要数据，以及不断逼紧的距离上、下界。因而，满足了使用FTB框架 的条件。可以基于FTB框架实现针对LCSS距离的查询。
- \clearpage
- \phantom{s}
- \clearpage
+%\chapter*{附录二\quad 基于LCSS距离的查询实现}
+%\vskip 5mm
+%最长公共子串距离的计算公式如公式\ref{eq:LCSS}所示。
+%\begin{equation}\label{eq:LCSS}
+%	LCSS({\cal Q},{\cal C})= func(n, m)
+%\end{equation}
+%\begin{equation*}	
+%func(i,j)=
+%\begin{cases}
+%0  & if \quad i=0 \lor j=0,\\ 
+%1 + func(i-1, j-1) & if \quad d(q_{i}, c_{j}) \le \delta, \\
+%max 
+%\begin{cases}
+%func(i-1,j),\\
+%func(i,j-1),
+%\end{cases} & otherwise
+%\end{cases}
+%\end{equation*}
+%
+%我们对$\cal Q$使用章节\ref{sec-c5-BE}所用包围盒技术进行多粒度概要数据计算，并以所得到的多粒度包围信封作为概要数据。此时，记第$l$层包围盒为${\cal Q}_{l}= \{qL_{l},qU_{l}\}$，其第$i$个元素$\vq_{l,i}=\{qU_{l,i}, qL_{l,i} \} $。此时针对分别来自$\cal Q$和$\cal C$的两个点$\vq_{i}$ 和 $\vc_{j}$，假设我们不知道$\vq_{i}$的真实值，但可以通过包围盒知道改点属于$\vq_{l,i}$所表示的范围内。那么我们可以计算出$\vq_{i}$ 和 $\vc_{j}$距离的下界$d_{lb}$和上界$d_{ub}$。
+%\begin{lemma}\label{lemma:SEDLUB}
+%	$d_{lb}(\bq_{l,i},\bc_{j})\le d(\bq_{i},\bc_{j})  \le d_{ub}(\bq_{l,i},\bc_{j})$, 其中 $\bq_{l,i}=\langle qL_{l,i}, qU_{l,i} \rangle$, $d_{lb}(\bq_{l,i},\bc_{j})$ 和 $d_{ub}(\bq_{l,i},\bc_{j})$ 的计算方式如下:
+%\allowdisplaybreaks[4]
+%\end{lemma}
+%\allowdisplaybreaks
+% 	\begin{equation}
+% d_{lb}(\vq_{l,i},\vc_{j})=
+% \sum_{k=1}^{d} \begin{cases}
+% ({\vc}_{j}^{k}- {qU}_{l,i}^{k})^2 & \emph{if} \,\,\,  {\vc}_{j}^{k} > {qU}_{l,i}^{k},\\
+% \quad 0 &   \emph{if} \,\,\,   {qL}_{l,i}^{k} \le \vc_{j}^{k} \le {qU}_{l,i}^{k},\\
+% ({qL}_{l,i}^{k} -{\vc_{j}}^{k})^2 & \emph{if} \,\,\,    {\vc}_{j}^{k} <{qL}_{l,i}^{k}.\\
+% \end{cases}
+% \end{equation}
+% \allowdisplaybreaks[4]
+% \allowdisplaybreaks
+% \begin{equation}
+% d_{ub}(\vq_{l,i},\vc_{j})=
+% \sum_{k=1}^{d} \begin{cases}
+% ({\vc}_{j}^{k}- {qL}_{l,i}^{k})^2 & \emph{if} \,\,\,  {\vc}_{j}^{k} > {qU}_{l,i}^{k},\\
+% ({qU}_{l,i}^{k}- {qL}_{l,i}^{k})^2 &   \emph{if} \,\,\,   {qL}_{l,i}^{k} \le \vc_{j}^{k} \le {qU}_{l,i}^{k},\\
+% ({qU}_{l,i}^{k} -{\vc_{j}}^{k})^2 & \emph{if} \,\,\,    {\vc}_{j}^{k} < {qL}_{l,i}^{k}.\\
+% \end{cases}
+% \end{equation}
+% 上述引理可根据欧式距离的定义直观看出。接下来，我们将展示$d_{lb}$和上界$d_{ub}$会随着细粒度的概要数据的使用，而逐渐逼近真实值。
+% \begin{lemma} \label{lemma:tighterPointBounds}
+% 	$d_{ub}(\bq_{l+1,i}, \bc_{j}) \le d_{ub}(\bq_{l,i}, \bc_{j})$ ， $d_{lb}(\bq_{l+1,i}, \bc_{j}) \ge d_{lb}(\bq_{l,i}, \bc_{j})$.
+% \end{lemma}
+% \begin{proof}
+% 	既然 $qL_{l,i}^{k} \le qL_{l+1,i}^{k}  \le \vq_{i}^{k} \le qU_{l+1,i}^{k} \le qU_{l,i}^{k}$,  
+% 	$k \in{[1,d]} $,  那么我们得到如下分析:
+% 	\begin{equation}	
+% 	\begin{cases}
+% 	(\vc_{j}^{k} - qL_{l+1,i}^{k} )^{2} \le (\vc_{j}^{k} - qL_{l,i}^{k})^{2} & \emph{if} \,\,\,   \vc_{j}^{k} >qU_{l,i}^{k}\\ 
+% 	(\vc_{j}^{k} - qL_{l+1,i}^{k} )^{2} \le   (qU_{l,i}^{k} - qL_{l,i}^{k})^{2}                  & \emph{if} \,\,\,   qU_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l,i}^{k} ,\\ 
+% 	\quad 0 = 0                    & \emph{if} \,\,\,   qL_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l+1,i}^{k} ,\\ 
+% 	(qU_{l+1,i}^{k}- \vc_{j}^{k})^{2} \le (qU_{l,i}^{k}- qL_{l,i}^{k})^{2}                     &\emph{if} \,\,\,  qL_{l,k}^{j} \le \vc_{j}^{k} \le qL_{l+1,i}^{k} ,\\ 
+% 	(qU_{l+1,i}^{k}- \vc_{j}^{k})^{2} \le 	( qU_{l,i}^{k}- \vc_{j}^{k})^{2}   & \emph{otherwise}
+% 	\end{cases}
+% 	\end{equation}
+% 	将所有维度数据相加 $d_{ub}(\vq_{l+1,i}, \vc_{j}) \le d_{ub}(\vq_{l,i}, \vc_{j})$。对于下界，同理可以进行分析
+% 	%	 we can proof  $d_{lb}(\bq_{l+1}^{i}, \bc_{j}) \ge d_{lb}(\bq_{l}^{i}, \bc_{j})$.
+% 	\begin{equation}	
+% 	\begin{cases}
+% 	(\vc_{j}^{k} - qU_{l+1,i}^{k} )^{2} \ge (\vc_{j}^{k} - qU_{l,i}^{k})^{2} & \emph{if} \,\,\,    \vc_{j}^{k} >qU_{l,i}^{k}\\ 
+% 	(\vc_{j}^{k} - qU_{l+1,i}^{k} )^{2} \ge 0  & \emph{if} \,\,\,   qU_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l,i}^{k} ,\\ 
+% 	\quad	0 = 0                    & \emph{if} \,\,\,   qL_{l+1,i}^{k} < \vc_{j}^{k} \le qU_{l+1,i}^{k} ,\\ 
+% 	( qL_{l+1,i}^{k}- \vc_{j}^{k})^{2} \ge 0                    &\emph{if} \,\,\,   qL_{l,k}^{j} \le \vc_{j}^{k} \le qL_{l+1,i}^{k} ,\\ 
+% 	( qL_{l+1,i}^{k}- \vc_{j}^{k})^{2} \ge 	( qL_{l,i}^{k}- \vc_{j}^{k})^{2}   & \emph{otherwise}
+% 	\end{cases}
+% 	\end{equation}
+% 	将所有维度数据累加，我们得到  $d_{lb}(\vq_{l+1,i}, \vc_{j}) \ge d_{lb}(\vq_{l,i}, \vc_{j})$ 成立。 
+% \end{proof}
+%
+%最后，我们介绍针对LCSS距离设计基于多粒度包围信封的上、下界。其中上界记为 $UB\_LCSS({\cal Q}_{l}, {\cal C})$，其计算方法如公式\ref{eq:ubLCSS}所示。下界记为$LB\_LCSS({\cal Q}_{l}, {\cal C})$，其计算方式为将$UB\_LCSS$定义中的$ d_{lb}$用$ d_{ub}$替代。
+%\begin{equation}\label{eq:ubLCSS}
+%UB\_LCSS({\cal Q}_{l},{\cal C})= func'(n, m)
+%\end{equation}
+%\begin{equation*}	
+%func'(i,j)=
+%\begin{cases}
+%0  & if \quad i=0 \lor j=0,\\ 
+%1 + func'(i-1, j-1) & if  d_{lb}(\vq_{l,i}, \vc_{j}) \le \delta, \\
+%max 
+%\begin{cases}
+%func'(i-1,j)\\
+%func'(i,j-1)
+%\end{cases} & otherwise
+%\end{cases}
+%\end{equation*}
+%	\begin{theorem}\label{theory:LCSSupper}$UB\_LCSS({\cal Q}_{l}, {\cal C}) \ge 	LCSS({\cal Q},{\cal C})$，即
+%	$UB\_LCSS({\cal Q}_{l}, {\cal C})$	是 $LCSS({\cal Q},{\cal C})$的上界。
+%\end{theorem}  
+%\begin{proof}\label{proof:LCSSUPPER}
+%	假定$Z=\{ z_{1}, z_{2}, \cdots, z_{k}\}$是$LCSS({\cal Q},{\cal C})$ 计算所求得的最长公共子串。那么对于任意属于$Z$的元素$z_{d}$，一定存在着一对元素$(\vq_{i}, \vc_{j})$ 
+%	使得$d(q_{i}, c_{j}) \le \delta$ 。根据$d_{lb}$定义，我们有 $d_{lb}(q_{l,i}, c_{j}) \le d(q_{i}, c_{j}) \le \delta$。 所以 $Z$ 也是$UB\_LCSS({\cal Q}_{l},{\cal C})$ 的一个公共子串，且它的长度小于或等于$UB\_LCSS({\cal Q}_{l}, {\cal C})$所蕴含的最长公共子串。所以，$UB\_LCSS({\cal Q}_{l}, {\cal C})\ge LCSS({\cal Q},{\cal C})$。
+%\end{proof}
+%
+%	\begin{theorem}\label{theory:LCSSlower}$LB\_LCSS({\cal Q}_{l}, {\cal C}) \le 	LCSS({\cal Q},{\cal C})$，即
+%	$LB\_LCSS({\cal Q}_{l}, {\cal C})$	是 $LCSS({\cal Q},{\cal C})$的下界。
+%\end{theorem}  
+%\begin{proof}
+%证明同定理\ref{theory:LCSSupper}。
+%\end{proof}
+%进一步地，我们将展示所提上、下界会随着包围信封粒度的增加而逐渐变紧。
+%\begin{theorem}\label{theory:LCSSupperDecrease}
+%	$UB\_LCSS({\cal Q}_{l+1}, {\cal C}) \le UB\_LCSS({\cal Q}_{l}, {\cal C}) $。
+%\end{theorem}  
+%
+%\begin{proof}\label{proof:LCSSDecrease}
+%假设 $Z=\{ z_{1}, z_{2}, \cdots, z_{k}\}$ 是$UB\_LCSS ({\cal Q}_{l+1}, {\cal C})$所蕴含的最长公共子串。
+%那么对于$Z$中任意一点$z_{d}$ 必然存在着一对元素 $(\vq_{i}, \vc_{j})$ 满足 $d_{lb}(\vq_{l+1,i}, \vc_{j}) \le \delta$。根据$d_{lb}$定义，我们有 $d_{lb}(q_{l,i}, c_{j}) \le d_{lb}(q_{l+1,i}, c_{j})$。因此，$Z$ 也是 $UB\_LCSS({\cal Q}_{l}, {\cal C})$的一条公共子串, 且$Z$的长度小于其最长公共子串的长度。因此我们有
+%$UB\_LCSS({\cal Q}_{l+1}, {\cal C})\le UB\_LCSS({\cal Q}_{l}, {\cal C})$。 
+%\end{proof}
+%\begin{theorem}\label{theory:LCSSlowerDecrease}
+%$LB\_LCSS({\cal Q}_{l+1}, {\cal C}) \ge LB\_LCSS({\cal Q}_{l}, {\cal C}) $。
+%\end{theorem}  
+%\begin{proof}
+%证明同定理\ref{theory:LCSSupperDecrease}。
+%\end{proof}
+%
+%至此，我们已经为LCSS距离设计了基于包围信封的概要数据，以及不断逼紧的距离上、下界。因而，满足了使用FTB框架 的条件。可以基于FTB框架实现针对LCSS距离的查询。
+% \clearpage
+% \phantom{s}
+% \clearpage

@@ -1,69 +1,83 @@
 \contentsline {chapter}{\numberline {第一章\hspace {.3em}}绪论}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}研究背景}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}研究内容与挑战}{4}{section.1.2}
-\contentsline {section}{\numberline {1.3}主要贡献}{6}{section.1.3}
-\contentsline {section}{\numberline {1.4}章节安排}{8}{section.1.4}
-\contentsline {chapter}{\numberline {第二章\hspace {.3em}}问题定义及研究现状}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}问题定义}{10}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}轨迹数据}{10}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}分布式$k$近邻轨迹查询}{11}{subsection.2.1.2}
-\contentsline {section}{\numberline {2.2}轨迹压缩}{12}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}传统离线时间序列压缩算法}{13}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}传统在线时间序列压缩算法}{16}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}基于路网结构的轨迹压缩算法}{18}{subsection.2.2.3}
-\contentsline {subsection}{\numberline {2.2.4}语义压缩算法}{19}{subsection.2.2.4}
-\contentsline {section}{\numberline {2.3}轨迹距离度量}{20}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}传统时间序列距离}{20}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}时空轨迹距离}{22}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}语义轨迹距离}{23}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}$k$近邻轨迹查询}{24}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}集中式环境下查询}{24}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}分布式环境下查询}{29}{subsection.2.4.2}
-\contentsline {chapter}{\numberline {第三章\hspace {.3em}}查询处理框架}{34}{chapter.3}
+\contentsline {section}{\numberline {1.2}研究内容与挑战}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}主要贡献}{7}{section.1.3}
+\contentsline {section}{\numberline {1.4}章节安排}{9}{section.1.4}
+\contentsline {chapter}{\numberline {第二章\hspace {.3em}}研究现状}{12}{chapter.2}
+\contentsline {section}{\numberline {2.1}数据模型及问题定义}{12}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}轨迹数据}{12}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}分布式$k$近邻轨迹查询}{13}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}轨迹数据管理}{14}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}轨迹索引}{14}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}集中式轨迹数据管理}{14}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}基于集群的分布式轨迹数据管理}{15}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.3}轨迹压缩}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}传统离线时间序列压缩算法}{17}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}传统在线时间序列压缩算法}{19}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}基于路网结构的轨迹压缩算法}{20}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}语义压缩算法}{22}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}轨迹距离度量}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}传统时间序列距离}{23}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}时空轨迹距离}{24}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}语义轨迹距离}{25}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}$k$近邻轨迹查询}{26}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}集中式环境下查询}{26}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}分布式环境下查询}{30}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {第三章\hspace {.3em}}基于集群的分布式轨迹管理}{34}{chapter.3}
 \contentsline {section}{\numberline {3.1}引言}{34}{section.3.1}
-\contentsline {section}{\numberline {3.2}接口函数}{35}{section.3.2}
-\contentsline {section}{\numberline {3.3}FTB框架}{36}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}FTB框架设计原理}{36}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}FTB框架实现}{38}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}FLB框架}{41}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}FLB框架设计原理}{41}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}FLB框架实现}{42}{subsection.3.4.2}
-\contentsline {section}{\numberline {3.5}本章小结}{45}{section.3.5}
-\contentsline {chapter}{\numberline {第四章\hspace {.3em}}FTB框架的应用}{47}{chapter.4}
-\contentsline {section}{\numberline {4.1}基于欧式距离的概要数据}{47}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}基于欧式距离的轨迹相似度度量}{47}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}基于哈尔小波的轨迹概要数据抽取}{48}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}轨迹欧式距离上、下界}{49}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}基于哈尔小波的欧式距离表示}{49}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}基于哈尔小波的欧式距离上、下界}{51}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}基于欧式距离的查询算法:ED-FTB}{53}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}ED-FTB算法实现}{53}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}ED-FTB算法性能分析}{56}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}实验分析}{57}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}实验设置}{57}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}算法有效性}{58}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}算法可扩展性}{63}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}本章小结}{64}{section.4.5}
-\contentsline {chapter}{\numberline {第五章\hspace {.3em}}FLB框架的应用}{68}{chapter.5}
-\contentsline {section}{\numberline {5.1}基于动态时间卷曲距离的概要数据}{68}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}基于动态时间卷曲距离的轨迹相似度度量}{68}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}基于包围信封的概要数据}{70}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}动态时间卷曲距离的下界}{71}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}满足DTW距离约束的包围信封及下界}{71}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}基于多粒度包围信封的下界}{73}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}基于动态时间距离的查询算法:DTW-FLB}{74}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}DTW-FLB算法实现}{74}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}DTW-FLB算法性能分析}{76}{subsection.5.3.2}
-\contentsline {section}{\numberline {5.4}实验分析}{77}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}实验设置}{77}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}算法有效性}{77}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}算法可扩展性}{80}{subsection.5.4.3}
-\contentsline {section}{\numberline {5.5}本章小结}{81}{section.5.5}
-\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{88}{chapter.6}
-\contentsline {section}{\numberline {6.1}研究总结}{88}{section.6.1}
-\contentsline {section}{\numberline {6.2}研究展望}{89}{section.6.2}
-\contentsline {chapter}{参考文献}{92}{section.6.2}
-\contentsline {chapter}{附录一}{105}{chapter*.37}
-\contentsline {chapter}{致谢}{112}{section*.40}
-\contentsline {chapter}{发表论文和科研情况}{113}{chapter*.41}
+\contentsline {subsection}{\numberline {3.1.1}背景知识}{34}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}基于Spark的时空管理系统}{35}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}TrajSpark系统设计及实现}{36}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}系统架构}{37}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}数据表示层}{38}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}辅助数据层}{41}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}查询处理层}{43}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}实验分析}{47}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}实验设置}{47}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}实验结果及分析}{48}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}本章小结}{54}{section.3.4}
+\contentsline {chapter}{\numberline {第四章\hspace {.3em}}基于上、下界剪枝的分布式$k$近邻查询}{56}{chapter.4}
+\contentsline {section}{\numberline {4.1}引言}{56}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}研究思路}{56}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}接口函数}{57}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}基于上、下界的逐步剪枝策略}{58}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}策略设计原理}{58}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}FTB策略实现方案}{59}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}欧氏距离的概要数据及上、下界计算}{62}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}基于欧氏距离的轨迹相似度度量}{62}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}基于哈尔小波的轨迹概要数据抽取}{63}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}基于哈尔小波系数的欧氏距离表示}{64}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}基于哈尔小波的欧氏距离上、下界}{67}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}基于欧氏距离的查询算法:ED-FTB}{71}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}ED-FTB算法实现}{71}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}ED-FTB算法性能分析}{73}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}实验分析}{74}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}实验设置}{75}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}算法有效性}{75}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}算法可扩展性}{80}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}本章小结}{81}{section.4.6}
+\contentsline {chapter}{\numberline {第五章\hspace {.3em}}基于下界剪枝的分布式$k$近邻查询}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}基于下界的逐步剪枝策略}{83}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}策略设计原理}{83}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}策略实现方案}{84}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}基于动态时间弯曲距离的概要数据}{88}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}基于动态时间弯曲距离的轨迹相似度度量}{88}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}基于包围信封的概要数据}{90}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}满足DTW距离约束的包围信封及下界}{91}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}基于多粒度包围信封的下界}{93}{subsection.5.2.4}
+\contentsline {section}{\numberline {5.3}基于动态时间距离的查询算法:DTW-FLB}{98}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}DTW-FLB算法实现}{98}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}DTW-FLB算法性能分析}{100}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}实验分析}{101}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}实验设置}{101}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}算法有效性}{101}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}算法可扩展性}{104}{subsection.5.4.3}
+\contentsline {section}{\numberline {5.5}本章小结}{105}{section.5.5}
+\contentsline {chapter}{\numberline {第六章\hspace {.3em}}总结与展望}{107}{chapter.6}
+\contentsline {section}{\numberline {6.1}研究总结}{107}{section.6.1}
+\contentsline {section}{\numberline {6.2}研究展望}{108}{section.6.2}
+\contentsline {chapter}{参考文献}{111}{section.6.2}
+\contentsline {chapter}{附录一}{124}{chapter*.41}
+\contentsline {chapter}{致谢}{126}{section*.43}
+\contentsline {chapter}{发表论文和科研情况}{127}{chapter*.44}
 \contentsfinish 
